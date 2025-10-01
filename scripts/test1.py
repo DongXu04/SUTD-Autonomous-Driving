@@ -12,15 +12,15 @@ class HybridFollowerSmooth:
         rospy.Subscriber('/scan', LaserScan, self.scan_callback)
 
         # ----- Wall follower params -----
-        self.kp_wall = 0.12
+        self.kp_wall = 0.08
         self.kd_wall = 0.12    # derivative gain
         self.prev_error = 0.0
         self.prev_time = rospy.get_time()
-        self.wall_speed = 3.2   # base wall speed
+        self.wall_speed = 5.0   # base wall speed
 
         # ----- Gap follower params -----
         self.max_speed = 2.0
-        self.min_speed = 1.4
+        self.min_speed = 1.5
         self.max_steering = 0.42
         self.car_width = 0.5
         self.safety_buffer = 0.2
@@ -38,8 +38,8 @@ class HybridFollowerSmooth:
 
         # ----- Steering smoothing / safety -----
         self.prev_steering = 0.0
-        self.max_steering_delta = 0.11
-        self.steering_ema_alpha = 0.9  
+        self.max_steering_delta = 0.32
+        self.steering_ema_alpha = 0.12  
 
         # ----- State -----
         self.state = 'WALL'
@@ -47,7 +47,7 @@ class HybridFollowerSmooth:
         # ----- Racing boost system -----
         self.current_boost = 0.0
         self.boost_rate = 0.1
-        self.max_boost = 2.5
+        self.max_boost = 1.8
         self.decay_rate = 0.5
 
         rospy.loginfo("HybridFollowerSmooth ready. Starting in WALL mode.")
