@@ -1,2 +1,2 @@
 # SUTD-Autonomous-Driving
-This is a project to code an autonomous driving RC car to navigate a race track without using SLAM. I am writing my code using pure reactive methods, and will be storing them here.
+This is a project to code an autonomous driving RC car for SUTD to navigate a race track without using SLAM. I am writing my code using pure reactive methods, and will be storing them here.
