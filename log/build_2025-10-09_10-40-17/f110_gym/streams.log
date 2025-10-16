@@ -1,0 +1,3 @@
+[2.302s] Invoking command in '/home/dongxu/ros2_ws/src/build/f110_gym': PYTHONPATH=/home/dongxu/ros2_ws/src/build/f110_gym/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dongxu/ros2_ws/src/install/f110_gym/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/dongxu/ros2_ws/src/build/f110_gym/build
+[2.943s] running develop
+[2.958s] error: error in 'egg_base' option: 'gym' does not exist or is not a directory

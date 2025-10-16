@@ -1,0 +1,53 @@
+[0.091s] Invoking command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongxu/ros2_ws/install/sutd_ws:/home/dongxu/ros2_ws/install/py_pubsub:/home/dongxu/ros2_ws/install/launch_testing_examples:/home/dongxu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_service:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_client:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/dongxu/ros2_ws/install/examples_rclpy_guard_conditions:/home/dongxu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/dongxu/ros2_ws/src/examples/rclcpp/services/async_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dongxu/ros2_ws/src/install/examples_rclcpp_async_client
+[1.228s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.229s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.230s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.230s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.230s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.230s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.230s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.230s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.230s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.230s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.230s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[12.257s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.402s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[12.616s] -- Added test 'copyright' to check source files copyright and LICENSE
+[12.618s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.620s] -- Configured cppcheck include dirs: 
+[12.620s] -- Configured cppcheck exclude dirs and/or files: 
+[12.621s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[12.621s] -- Configured cpplint exclude dirs and/or files: 
+[12.621s] -- Added test 'lint_cmake' to check CMake code style
+[12.622s] -- Added test 'uncrustify' to check C / C++ code style
+[12.622s] -- Configured uncrustify additional arguments: 
+[12.623s] -- Added test 'xmllint' to check XML markup files
+[12.626s] -- Configuring done
+[12.651s] -- Generating done
+[12.660s] -- Build files have been written to: /home/dongxu/ros2_ws/src/build/examples_rclcpp_async_client
+[13.650s] Invoked command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongxu/ros2_ws/install/sutd_ws:/home/dongxu/ros2_ws/install/py_pubsub:/home/dongxu/ros2_ws/install/launch_testing_examples:/home/dongxu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_service:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_client:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/dongxu/ros2_ws/install/examples_rclpy_guard_conditions:/home/dongxu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/dongxu/ros2_ws/src/examples/rclcpp/services/async_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dongxu/ros2_ws/src/install/examples_rclcpp_async_client
+[13.653s] Invoking command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongxu/ros2_ws/install/sutd_ws:/home/dongxu/ros2_ws/install/py_pubsub:/home/dongxu/ros2_ws/install/launch_testing_examples:/home/dongxu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_service:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_client:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/dongxu/ros2_ws/install/examples_rclpy_guard_conditions:/home/dongxu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/dongxu/ros2_ws/src/build/examples_rclcpp_async_client -- -j16 -l16
+[13.730s] [35m[1mConsolidate compiler generated dependencies of target client_main[0m
+[13.756s] [ 50%] [32m[1mLinking CXX executable client_main[0m
+[14.165s] [100%] Built target client_main
+[14.531s] Invoked command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongxu/ros2_ws/install/sutd_ws:/home/dongxu/ros2_ws/install/py_pubsub:/home/dongxu/ros2_ws/install/launch_testing_examples:/home/dongxu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_service:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_client:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/dongxu/ros2_ws/install/examples_rclpy_guard_conditions:/home/dongxu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/dongxu/ros2_ws/src/build/examples_rclcpp_async_client -- -j16 -l16
+[14.534s] Invoking command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongxu/ros2_ws/install/sutd_ws:/home/dongxu/ros2_ws/install/py_pubsub:/home/dongxu/ros2_ws/install/launch_testing_examples:/home/dongxu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_service:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_client:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/dongxu/ros2_ws/install/examples_rclpy_guard_conditions:/home/dongxu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/dongxu/ros2_ws/src/build/examples_rclcpp_async_client
+[14.577s] -- Install configuration: ""
+[14.578s] -- Execute custom install script
+[14.579s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_async_client/lib/examples_rclcpp_async_client/client_main
+[14.579s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_async_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_async_client
+[14.579s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_async_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_async_client
+[14.584s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/ament_prefix_path.sh
+[14.604s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/ament_prefix_path.dsv
+[14.624s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/path.sh
+[14.639s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/path.dsv
+[14.655s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.bash
+[14.671s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.sh
+[14.693s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.zsh
+[14.708s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.dsv
+[14.722s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.dsv
+[14.760s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_async_client/share/ament_index/resource_index/packages/examples_rclcpp_async_client
+[14.784s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/cmake/examples_rclcpp_async_clientConfig.cmake
+[14.807s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/cmake/examples_rclcpp_async_clientConfig-version.cmake
+[14.824s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.xml
+[15.270s] Invoked command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongxu/ros2_ws/install/sutd_ws:/home/dongxu/ros2_ws/install/py_pubsub:/home/dongxu/ros2_ws/install/launch_testing_examples:/home/dongxu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_service:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_client:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/dongxu/ros2_ws/install/examples_rclpy_guard_conditions:/home/dongxu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/dongxu/ros2_ws/src/build/examples_rclcpp_async_client

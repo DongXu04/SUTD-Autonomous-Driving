@@ -1,0 +1,96 @@
+[0.098s] Invoking command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongxu/ros2_ws/install/sutd_ws:/home/dongxu/ros2_ws/install/py_pubsub:/home/dongxu/ros2_ws/install/launch_testing_examples:/home/dongxu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_service:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_client:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/dongxu/ros2_ws/install/examples_rclpy_guard_conditions:/home/dongxu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/dongxu/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_publisher
+[1.446s] -- The C compiler identification is GNU 11.4.0
+[1.447s] -- The CXX compiler identification is GNU 11.4.0
+[1.447s] -- Detecting C compiler ABI info
+[1.447s] -- Detecting C compiler ABI info - done
+[1.449s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.449s] -- Detecting C compile features
+[1.451s] -- Detecting C compile features - done
+[1.451s] -- Detecting CXX compiler ABI info
+[1.451s] -- Detecting CXX compiler ABI info - done
+[1.452s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.452s] -- Detecting CXX compile features
+[1.452s] -- Detecting CXX compile features - done
+[1.452s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.742s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.110s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[2.499s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.515s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.544s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.592s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.650s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.822s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.835s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.917s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.230s] -- Found FastRTPS: /opt/ros/humble/include  
+[11.145s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.166s] -- Looking for pthread.h
+[11.372s] -- Looking for pthread.h - found
+[11.373s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.523s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[11.524s] -- Found Threads: TRUE  
+[11.629s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.780s] -- Added test 'copyright' to check source files copyright and LICENSE
+[11.784s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.785s] -- Configured cppcheck include dirs: 
+[11.785s] -- Configured cppcheck exclude dirs and/or files: 
+[11.787s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.787s] -- Configured cpplint exclude dirs and/or files: 
+[11.791s] -- Added test 'lint_cmake' to check CMake code style
+[11.795s] -- Added test 'uncrustify' to check C / C++ code style
+[11.795s] -- Configured uncrustify additional arguments: 
+[11.797s] -- Added test 'xmllint' to check XML markup files
+[11.801s] -- Configuring done
+[11.845s] -- Generating done
+[11.864s] -- Build files have been written to: /home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_publisher
+[11.884s] Invoked command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongxu/ros2_ws/install/sutd_ws:/home/dongxu/ros2_ws/install/py_pubsub:/home/dongxu/ros2_ws/install/launch_testing_examples:/home/dongxu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_service:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_client:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/dongxu/ros2_ws/install/examples_rclpy_guard_conditions:/home/dongxu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/dongxu/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_publisher
+[11.884s] Invoking command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongxu/ros2_ws/install/sutd_ws:/home/dongxu/ros2_ws/install/py_pubsub:/home/dongxu/ros2_ws/install/launch_testing_examples:/home/dongxu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_service:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_client:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/dongxu/ros2_ws/install/examples_rclpy_guard_conditions:/home/dongxu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_publisher -- -j16 -l16
+[16.726s] [  8%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[16.726s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[16.726s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_lambda.dir/lambda.cpp.o[0m
+[16.727s] [ 33%] [32mBuilding CXX object CMakeFiles/publisher_wait_for_all_acked.dir/member_function_with_wait_for_all_acked.cpp.o[0m
+[16.727s] [ 41%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[16.727s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o[0m
+[37.697s] [ 58%] [32m[1mLinking CXX executable publisher_member_function[0m
+[42.314s] [ 66%] [32m[1mLinking CXX executable publisher_lambda[0m
+[42.535s] [ 66%] Built target publisher_member_function
+[42.581s] [ 75%] [32m[1mLinking CXX executable publisher_member_function_with_type_adapter[0m
+[43.994s] [ 75%] Built target publisher_member_function_with_type_adapter
+[44.061s] [ 75%] Built target publisher_lambda
+[47.034s] [ 83%] [32m[1mLinking CXX executable publisher_member_function_with_unique_network_flow_endpoints[0m
+[48.785s] [ 83%] Built target publisher_member_function_with_unique_network_flow_endpoints
+[60.390s] [ 91%] [32m[1mLinking CXX executable publisher_not_composable[0m
+[62.299s] [ 91%] Built target publisher_not_composable
+[67.338s] [100%] [32m[1mLinking CXX executable publisher_wait_for_all_acked[0m
+[68.765s] [100%] Built target publisher_wait_for_all_acked
+[71.015s] Invoked command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongxu/ros2_ws/install/sutd_ws:/home/dongxu/ros2_ws/install/py_pubsub:/home/dongxu/ros2_ws/install/launch_testing_examples:/home/dongxu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_service:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_client:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/dongxu/ros2_ws/install/examples_rclpy_guard_conditions:/home/dongxu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_publisher -- -j16 -l16
+[71.045s] Invoking command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongxu/ros2_ws/install/sutd_ws:/home/dongxu/ros2_ws/install/py_pubsub:/home/dongxu/ros2_ws/install/launch_testing_examples:/home/dongxu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_service:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_client:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/dongxu/ros2_ws/install/examples_rclpy_guard_conditions:/home/dongxu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_publisher
+[71.164s] -- Install configuration: ""
+[71.164s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[71.164s] -- Set runtime path of "/home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda" to ""
+[71.164s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[71.164s] -- Set runtime path of "/home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function" to ""
+[71.164s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter
+[71.165s] -- Set runtime path of "/home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter" to ""
+[71.165s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints
+[71.165s] -- Set runtime path of "/home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints" to ""
+[71.165s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked
+[71.165s] -- Set runtime path of "/home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked" to ""
+[71.165s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[71.165s] -- Set runtime path of "/home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable" to ""
+[71.165s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[71.165s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[71.165s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[71.165s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[71.165s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[71.166s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[71.166s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[71.166s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[71.166s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[71.166s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[71.166s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[71.166s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[71.166s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[71.166s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[71.166s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[71.386s] Invoked command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongxu/ros2_ws/install/sutd_ws:/home/dongxu/ros2_ws/install/py_pubsub:/home/dongxu/ros2_ws/install/launch_testing_examples:/home/dongxu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_service:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_client:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/dongxu/ros2_ws/install/examples_rclpy_guard_conditions:/home/dongxu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_publisher

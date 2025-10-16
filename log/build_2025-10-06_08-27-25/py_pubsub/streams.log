@@ -1,0 +1,42 @@
+[13.989s] Invoking command in '/home/dongxu/ros2_ws/src/py_pubsub': PYTHONPATH=/home/dongxu/ros2_ws/src/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dongxu/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/py_pubsub build --build-base /home/dongxu/ros2_ws/src/build/py_pubsub/build install --record /home/dongxu/ros2_ws/src/build/py_pubsub/install.log --single-version-externally-managed install_data
+[14.849s] running egg_info
+[14.850s] creating ../build/py_pubsub/py_pubsub.egg-info
+[14.850s] writing ../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[14.851s] writing dependency_links to ../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[14.851s] writing entry points to ../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[14.856s] writing requirements to ../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[14.856s] writing top-level names to ../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[14.856s] writing manifest file '../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[14.859s] reading manifest file '../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[14.860s] adding license file 'LICENSE'
+[14.861s] writing manifest file '../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[14.862s] running build
+[14.865s] running build_py
+[14.865s] creating /home/dongxu/ros2_ws/src/build/py_pubsub/build
+[14.866s] creating /home/dongxu/ros2_ws/src/build/py_pubsub/build/lib
+[14.866s] creating /home/dongxu/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub
+[14.866s] copying py_pubsub/__init__.py -> /home/dongxu/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub
+[14.866s] copying py_pubsub/publisher_member_function.py -> /home/dongxu/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub
+[14.868s] copying py_pubsub/subscriber_member_function.py -> /home/dongxu/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub
+[14.871s] running install
+[14.872s] running install_lib
+[14.874s] creating /home/dongxu/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[14.875s] copying /home/dongxu/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/dongxu/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[14.876s] copying /home/dongxu/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/dongxu/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[14.877s] copying /home/dongxu/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/dongxu/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[14.892s] byte-compiling /home/dongxu/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc
+[14.892s] byte-compiling /home/dongxu/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[14.901s] byte-compiling /home/dongxu/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[14.901s] running install_data
+[14.901s] creating /home/dongxu/ros2_ws/src/install/py_pubsub/share/ament_index
+[14.902s] creating /home/dongxu/ros2_ws/src/install/py_pubsub/share/ament_index/resource_index
+[14.902s] creating /home/dongxu/ros2_ws/src/install/py_pubsub/share/ament_index/resource_index/packages
+[14.903s] copying resource/py_pubsub -> /home/dongxu/ros2_ws/src/install/py_pubsub/share/ament_index/resource_index/packages
+[14.903s] copying package.xml -> /home/dongxu/ros2_ws/src/install/py_pubsub/share/py_pubsub
+[14.913s] running install_egg_info
+[14.914s] Copying ../build/py_pubsub/py_pubsub.egg-info to /home/dongxu/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[14.924s] running install_scripts
+[15.023s] Installing listener script to /home/dongxu/ros2_ws/src/install/py_pubsub/lib/py_pubsub
+[15.032s] Installing talker script to /home/dongxu/ros2_ws/src/install/py_pubsub/lib/py_pubsub
+[15.032s] writing list of installed files to '/home/dongxu/ros2_ws/src/build/py_pubsub/install.log'
+[15.173s] Invoked command in '/home/dongxu/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/dongxu/ros2_ws/src/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dongxu/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/py_pubsub build --build-base /home/dongxu/ros2_ws/src/build/py_pubsub/build install --record /home/dongxu/ros2_ws/src/build/py_pubsub/install.log --single-version-externally-managed install_data

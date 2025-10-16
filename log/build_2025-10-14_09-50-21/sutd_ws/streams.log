@@ -1,0 +1,27 @@
+[1.128s] Invoking command in '/home/dongxu/ros2_ws/src/build/sutd_ws': PYTHONPATH=/home/dongxu/ros2_ws/src/build/sutd_ws/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dongxu/ros2_ws/src/install/sutd_ws/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dongxu/ros2_ws/src/build/sutd_ws/build --no-deps symlink_data
+[1.537s] running develop
+[1.768s] running egg_info
+[1.782s] writing sutd_ws.egg-info/PKG-INFO
+[1.782s] writing dependency_links to sutd_ws.egg-info/dependency_links.txt
+[1.783s] writing entry points to sutd_ws.egg-info/entry_points.txt
+[1.783s] writing requirements to sutd_ws.egg-info/requires.txt
+[1.783s] writing top-level names to sutd_ws.egg-info/top_level.txt
+[1.811s] reading manifest file 'sutd_ws.egg-info/SOURCES.txt'
+[1.812s] writing manifest file 'sutd_ws.egg-info/SOURCES.txt'
+[1.828s] running build_ext
+[1.828s] Creating /home/dongxu/ros2_ws/src/install/sutd_ws/lib/python3.10/site-packages/sutd-ws.egg-link (link to .)
+[1.828s] Installing autonomous_driving1 script to /home/dongxu/ros2_ws/src/install/sutd_ws/lib/sutd_ws
+[1.829s] Installing autonomous_driving2 script to /home/dongxu/ros2_ws/src/install/sutd_ws/lib/sutd_ws
+[1.829s] Installing autonomous_driving3 script to /home/dongxu/ros2_ws/src/install/sutd_ws/lib/sutd_ws
+[1.829s] Installing gap_follower script to /home/dongxu/ros2_ws/src/install/sutd_ws/lib/sutd_ws
+[1.829s] Installing gap_follower2 script to /home/dongxu/ros2_ws/src/install/sutd_ws/lib/sutd_ws
+[1.829s] Installing gap_follower3 script to /home/dongxu/ros2_ws/src/install/sutd_ws/lib/sutd_ws
+[1.830s] Installing keypressed_calculator script to /home/dongxu/ros2_ws/src/install/sutd_ws/lib/sutd_ws
+[1.830s] Installing keypressed_listener script to /home/dongxu/ros2_ws/src/install/sutd_ws/lib/sutd_ws
+[1.830s] Installing keypressed_talker script to /home/dongxu/ros2_ws/src/install/sutd_ws/lib/sutd_ws
+[1.830s] Installing wall_follower script to /home/dongxu/ros2_ws/src/install/sutd_ws/lib/sutd_ws
+[1.830s] Installing wall_follower2 script to /home/dongxu/ros2_ws/src/install/sutd_ws/lib/sutd_ws
+[1.830s] 
+[1.831s] Installed /home/dongxu/ros2_ws/src/build/sutd_ws
+[1.831s] running symlink_data
+[1.874s] Invoked command in '/home/dongxu/ros2_ws/src/build/sutd_ws' returned '0': PYTHONPATH=/home/dongxu/ros2_ws/src/build/sutd_ws/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dongxu/ros2_ws/src/install/sutd_ws/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dongxu/ros2_ws/src/build/sutd_ws/build --no-deps symlink_data

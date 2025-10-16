@@ -1,0 +1,12 @@
+[console_scripts]
+autonomous_driving1 = sutd_ws.autonomous_driving1:main
+autonomous_driving2 = sutd_ws.autonomous_driving2:main
+autonomous_driving3 = sutd_ws.autonomous_driving3:main
+gap_follower = sutd_ws.gap_follower:main
+gap_follower2 = sutd_ws.gap_follower2:main
+gap_follower3 = sutd_ws.gap_follower3:main
+keypressed_calculator = sutd_ws.keypressed_calculator:main
+keypressed_listener = sutd_ws.keypressed_listener:main
+keypressed_talker = sutd_ws.keypressed_talker:main
+wall_follower = sutd_ws.wall_follower:main
+wall_follower2 = sutd_ws.wall_follower2:main

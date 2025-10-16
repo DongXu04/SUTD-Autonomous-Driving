@@ -1,0 +1,53 @@
+[0.123s] Invoking command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongxu/ros2_ws/install/sutd_ws:/home/dongxu/ros2_ws/install/py_pubsub:/home/dongxu/ros2_ws/install/launch_testing_examples:/home/dongxu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_service:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_client:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/dongxu/ros2_ws/install/examples_rclpy_guard_conditions:/home/dongxu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/dongxu/ros2_ws/src/examples/rclcpp/services/minimal_service -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_service
+[1.209s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.210s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.212s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.212s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.212s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.212s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.212s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.212s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.213s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.213s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.213s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[14.503s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.603s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.799s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.800s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.801s] -- Configured cppcheck include dirs: 
+[14.801s] -- Configured cppcheck exclude dirs and/or files: 
+[14.802s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[14.802s] -- Configured cpplint exclude dirs and/or files: 
+[14.802s] -- Added test 'lint_cmake' to check CMake code style
+[14.804s] -- Added test 'uncrustify' to check C / C++ code style
+[14.804s] -- Configured uncrustify additional arguments: 
+[14.805s] -- Added test 'xmllint' to check XML markup files
+[14.808s] -- Configuring done
+[14.831s] -- Generating done
+[14.839s] -- Build files have been written to: /home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_service
+[15.258s] Invoked command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongxu/ros2_ws/install/sutd_ws:/home/dongxu/ros2_ws/install/py_pubsub:/home/dongxu/ros2_ws/install/launch_testing_examples:/home/dongxu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_service:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_client:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/dongxu/ros2_ws/install/examples_rclpy_guard_conditions:/home/dongxu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/dongxu/ros2_ws/src/examples/rclcpp/services/minimal_service -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_service
+[15.259s] Invoking command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongxu/ros2_ws/install/sutd_ws:/home/dongxu/ros2_ws/install/py_pubsub:/home/dongxu/ros2_ws/install/launch_testing_examples:/home/dongxu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_service:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_client:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/dongxu/ros2_ws/install/examples_rclpy_guard_conditions:/home/dongxu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_service -- -j16 -l16
+[15.356s] [35m[1mConsolidate compiler generated dependencies of target service_main[0m
+[15.357s] [ 50%] [32m[1mLinking CXX executable service_main[0m
+[15.952s] [100%] Built target service_main
+[16.760s] Invoked command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongxu/ros2_ws/install/sutd_ws:/home/dongxu/ros2_ws/install/py_pubsub:/home/dongxu/ros2_ws/install/launch_testing_examples:/home/dongxu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_service:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_client:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/dongxu/ros2_ws/install/examples_rclpy_guard_conditions:/home/dongxu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_service -- -j16 -l16
+[16.763s] Invoking command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongxu/ros2_ws/install/sutd_ws:/home/dongxu/ros2_ws/install/py_pubsub:/home/dongxu/ros2_ws/install/launch_testing_examples:/home/dongxu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_service:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_client:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/dongxu/ros2_ws/install/examples_rclpy_guard_conditions:/home/dongxu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_service
+[16.787s] -- Install configuration: ""
+[16.787s] -- Execute custom install script
+[16.787s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_service/lib/examples_rclcpp_minimal_service/service_main
+[16.789s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_service
+[16.794s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_service
+[16.804s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.sh
+[16.813s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.dsv
+[16.824s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.sh
+[16.832s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.dsv
+[16.839s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.bash
+[16.848s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.sh
+[16.857s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.zsh
+[16.865s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.dsv
+[16.873s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.dsv
+[16.883s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/packages/examples_rclcpp_minimal_service
+[16.894s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig.cmake
+[16.904s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig-version.cmake
+[16.911s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.xml
+[16.924s] Invoked command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongxu/ros2_ws/install/sutd_ws:/home/dongxu/ros2_ws/install/py_pubsub:/home/dongxu/ros2_ws/install/launch_testing_examples:/home/dongxu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_service:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_client:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/dongxu/ros2_ws/install/examples_rclpy_guard_conditions:/home/dongxu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_service

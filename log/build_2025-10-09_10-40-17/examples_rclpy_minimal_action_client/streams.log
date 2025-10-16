@@ -1,0 +1,23 @@
+[3.691s] Invoking command in '/home/dongxu/ros2_ws/src/examples/rclpy/actions/minimal_action_client': PYTHONPATH=/home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_action_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_minimal_action_client build --build-base /home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_action_client/build install --record /home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_action_client/install.log --single-version-externally-managed install_data
+[4.392s] running egg_info
+[4.425s] writing ../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/PKG-INFO
+[4.426s] writing dependency_links to ../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/dependency_links.txt
+[4.426s] writing entry points to ../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/entry_points.txt
+[4.427s] writing requirements to ../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/requires.txt
+[4.428s] writing top-level names to ../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/top_level.txt
+[4.481s] reading manifest file '../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[4.484s] writing manifest file '../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[4.484s] running build
+[4.484s] running build_py
+[4.485s] running install
+[4.493s] running install_lib
+[4.516s] running install_data
+[4.517s] running install_egg_info
+[4.544s] removing '/home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client-0.15.4-py3.10.egg-info' (and everything under it)
+[4.545s] Copying ../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info to /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client-0.15.4-py3.10.egg-info
+[4.547s] running install_scripts
+[4.630s] Installing client script to /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[4.631s] Installing client_asyncio script to /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[4.631s] Installing client_cancel script to /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[4.631s] Installing client_not_composable script to /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[4.631s] writing list of installed files to '/home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_action_client/install.log'

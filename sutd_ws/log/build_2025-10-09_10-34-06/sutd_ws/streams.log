@@ -1,0 +1,25 @@
+[0.825s] Invoking command in '/home/dongxu/ros2_ws/src/sutd_ws': PYTHONPATH=/home/dongxu/ros2_ws/src/sutd_ws/build/sutd_ws/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dongxu/ros2_ws/src/sutd_ws/install/sutd_ws/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/sutd_ws build --build-base /home/dongxu/ros2_ws/src/sutd_ws/build/sutd_ws/build install --record /home/dongxu/ros2_ws/src/sutd_ws/build/sutd_ws/install.log --single-version-externally-managed install_data
+[1.063s] running egg_info
+[1.076s] writing build/sutd_ws/sutd_ws.egg-info/PKG-INFO
+[1.077s] writing dependency_links to build/sutd_ws/sutd_ws.egg-info/dependency_links.txt
+[1.077s] writing entry points to build/sutd_ws/sutd_ws.egg-info/entry_points.txt
+[1.077s] writing requirements to build/sutd_ws/sutd_ws.egg-info/requires.txt
+[1.077s] writing top-level names to build/sutd_ws/sutd_ws.egg-info/top_level.txt
+[1.096s] reading manifest file 'build/sutd_ws/sutd_ws.egg-info/SOURCES.txt'
+[1.097s] writing manifest file 'build/sutd_ws/sutd_ws.egg-info/SOURCES.txt'
+[1.097s] running build
+[1.097s] running build_py
+[1.097s] copying sutd_ws/keypressed_talker.py -> /home/dongxu/ros2_ws/src/sutd_ws/build/sutd_ws/build/lib/sutd_ws
+[1.098s] running install
+[1.101s] running install_lib
+[1.111s] copying /home/dongxu/ros2_ws/src/sutd_ws/build/sutd_ws/build/lib/sutd_ws/keypressed_talker.py -> /home/dongxu/ros2_ws/src/sutd_ws/install/sutd_ws/lib/python3.10/site-packages/sutd_ws
+[1.112s] byte-compiling /home/dongxu/ros2_ws/src/sutd_ws/install/sutd_ws/lib/python3.10/site-packages/sutd_ws/keypressed_talker.py to keypressed_talker.cpython-310.pyc
+[1.113s] running install_data
+[1.113s] running install_egg_info
+[1.122s] removing '/home/dongxu/ros2_ws/src/sutd_ws/install/sutd_ws/lib/python3.10/site-packages/sutd_ws-0.0.0-py3.10.egg-info' (and everything under it)
+[1.123s] Copying build/sutd_ws/sutd_ws.egg-info to /home/dongxu/ros2_ws/src/sutd_ws/install/sutd_ws/lib/python3.10/site-packages/sutd_ws-0.0.0-py3.10.egg-info
+[1.124s] running install_scripts
+[1.159s] Installing keypressed_listener script to /home/dongxu/ros2_ws/src/sutd_ws/install/sutd_ws/lib/sutd_ws
+[1.159s] Installing keypressed_talker script to /home/dongxu/ros2_ws/src/sutd_ws/install/sutd_ws/lib/sutd_ws
+[1.160s] writing list of installed files to '/home/dongxu/ros2_ws/src/sutd_ws/build/sutd_ws/install.log'
+[1.182s] Invoked command in '/home/dongxu/ros2_ws/src/sutd_ws' returned '0': PYTHONPATH=/home/dongxu/ros2_ws/src/sutd_ws/build/sutd_ws/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dongxu/ros2_ws/src/sutd_ws/install/sutd_ws/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/sutd_ws build --build-base /home/dongxu/ros2_ws/src/sutd_ws/build/sutd_ws/build install --record /home/dongxu/ros2_ws/src/sutd_ws/build/sutd_ws/install.log --single-version-externally-managed install_data

@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing examples_rclpy_minimal_action_client.egg-info/PKG-INFO
+writing dependency_links to examples_rclpy_minimal_action_client.egg-info/dependency_links.txt
+writing entry points to examples_rclpy_minimal_action_client.egg-info/entry_points.txt
+writing requirements to examples_rclpy_minimal_action_client.egg-info/requires.txt
+writing top-level names to examples_rclpy_minimal_action_client.egg-info/top_level.txt
+reading manifest file 'examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+writing manifest file 'examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples-rclpy-minimal-action-client.egg-link (link to .)
+Installing client script to /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+Installing client_asyncio script to /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+Installing client_cancel script to /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+Installing client_not_composable script to /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+
+Installed /home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_action_client
+running symlink_data
+symbolically linking /home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_action_client/resource/examples_rclpy_minimal_action_client -> /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_client/share/ament_index/resource_index/packages
+symbolically linking /home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_action_client/package.xml -> /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_client/share/examples_rclpy_minimal_action_client

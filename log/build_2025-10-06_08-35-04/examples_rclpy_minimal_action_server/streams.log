@@ -1,0 +1,23 @@
+[1.858s] Invoking command in '/home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_action_server': PYTHONPATH=/home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_action_server/build --no-deps symlink_data --force
+[11.936s] running develop
+[11.936s] running egg_info
+[11.936s] writing examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[11.936s] writing dependency_links to examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[11.936s] writing entry points to examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[11.936s] writing requirements to examples_rclpy_minimal_action_server.egg-info/requires.txt
+[11.936s] writing top-level names to examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[11.938s] reading manifest file 'examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[11.938s] writing manifest file 'examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[11.939s] running build_ext
+[11.939s] Creating /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples-rclpy-minimal-action-server.egg-link (link to .)
+[11.939s] Installing server script to /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[11.939s] Installing server_defer script to /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[11.939s] Installing server_not_composable script to /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[11.939s] Installing server_queue_goals script to /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[11.942s] Installing server_single_goal script to /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[11.942s] 
+[11.942s] Installed /home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_action_server
+[11.942s] running symlink_data
+[11.942s] symbolically linking /home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_action_server/resource/examples_rclpy_minimal_action_server -> /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index/packages
+[11.943s] symbolically linking /home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_action_server/package.xml -> /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_server/share/examples_rclpy_minimal_action_server
+[11.953s] Invoked command in '/home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_action_server' returned '0': PYTHONPATH=/home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_action_server/build --no-deps symlink_data --force

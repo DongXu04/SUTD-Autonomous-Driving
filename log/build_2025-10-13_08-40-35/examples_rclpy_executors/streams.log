@@ -1,0 +1,25 @@
+[3.327s] Invoking command in '/home/dongxu/ros2_ws/src/examples/rclpy/executors': PYTHONPATH=/home/dongxu/ros2_ws/src/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dongxu/ros2_ws/src/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/examples_rclpy_executors build --build-base /home/dongxu/ros2_ws/src/build/examples_rclpy_executors/build install --record /home/dongxu/ros2_ws/src/build/examples_rclpy_executors/install.log --single-version-externally-managed install_data
+[3.935s] running egg_info
+[3.968s] writing ../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+[3.968s] writing dependency_links to ../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+[3.969s] writing entry points to ../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+[3.970s] writing requirements to ../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+[3.970s] writing top-level names to ../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+[4.015s] reading manifest file '../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[4.016s] writing manifest file '../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[4.016s] running build
+[4.016s] running build_py
+[4.018s] running install
+[4.027s] running install_lib
+[4.053s] running install_data
+[4.053s] running install_egg_info
+[4.070s] removing '/home/dongxu/ros2_ws/src/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors-0.15.4-py3.10.egg-info' (and everything under it)
+[4.071s] Copying ../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /home/dongxu/ros2_ws/src/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors-0.15.4-py3.10.egg-info
+[4.072s] running install_scripts
+[4.165s] Installing callback_group script to /home/dongxu/ros2_ws/src/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[4.165s] Installing composed script to /home/dongxu/ros2_ws/src/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[4.166s] Installing custom_callback_group script to /home/dongxu/ros2_ws/src/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[4.166s] Installing custom_executor script to /home/dongxu/ros2_ws/src/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[4.166s] Installing listener script to /home/dongxu/ros2_ws/src/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[4.167s] Installing talker script to /home/dongxu/ros2_ws/src/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[4.167s] writing list of installed files to '/home/dongxu/ros2_ws/src/build/examples_rclpy_executors/install.log'

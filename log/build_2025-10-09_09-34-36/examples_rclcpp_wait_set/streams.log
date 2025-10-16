@@ -1,0 +1,46 @@
+[0.048s] Invoking command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/home/dongxu/ros2_ws/src/sutd_ws/install/sutd_ws:/opt/ros/humble /usr/bin/cmake --build /home/dongxu/ros2_ws/src/build/examples_rclcpp_wait_set -- -j16 -l16
+[1.027s] [  8%] Built target static_wait_set
+[1.027s] [ 16%] Built target wait_set_talker
+[1.028s] [ 25%] Built target wait_set_topics_with_different_rates
+[1.028s] [ 33%] Built target listener
+[1.028s] [ 41%] Built target wait_set_listener
+[1.028s] [ 50%] Built target talker
+[1.028s] [ 58%] Built target wait_set_topics_and_timer
+[1.028s] [ 66%] Built target wait_set_random_order
+[1.028s] [ 83%] Built target executor_random_order
+[1.028s] [ 83%] Built target wait_set
+[1.028s] [ 91%] Built target thread_safe_wait_set
+[1.029s] [100%] Built target wait_set_composed
+[1.067s] Invoked command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/home/dongxu/ros2_ws/src/sutd_ws/install/sutd_ws:/opt/ros/humble /usr/bin/cmake --build /home/dongxu/ros2_ws/src/build/examples_rclcpp_wait_set -- -j16 -l16
+[1.071s] Invoking command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/home/dongxu/ros2_ws/src/sutd_ws/install/sutd_ws:/opt/ros/humble /usr/bin/cmake --install /home/dongxu/ros2_ws/src/build/examples_rclcpp_wait_set
+[1.101s] -- Install configuration: ""
+[1.101s] -- Execute custom install script
+[1.102s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+[1.102s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+[1.102s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/libtalker.so
+[1.102s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/liblistener.so
+[1.103s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+[1.103s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+[1.103s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+[1.105s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+[1.105s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+[1.106s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+[1.106s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+[1.107s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+[1.107s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+[1.107s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+[1.107s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.sh
+[1.107s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+[1.107s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.sh
+[1.107s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+[1.107s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+[1.108s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+[1.108s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+[1.108s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+[1.108s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[1.108s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+[1.108s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+[1.108s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+[1.108s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+[1.108s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml
+[1.217s] Invoked command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/home/dongxu/ros2_ws/src/sutd_ws/install/sutd_ws:/opt/ros/humble /usr/bin/cmake --install /home/dongxu/ros2_ws/src/build/examples_rclcpp_wait_set

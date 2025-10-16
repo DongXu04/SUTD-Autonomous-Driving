@@ -1,0 +1,23 @@
+[0.382s] Invoking command in '/home/dongxu/ros2_ws/src/py_pubsub': PYTHONPATH=/home/dongxu/ros2_ws/src/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dongxu/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/py_pubsub build --build-base /home/dongxu/ros2_ws/src/build/py_pubsub/build install --record /home/dongxu/ros2_ws/src/build/py_pubsub/install.log --single-version-externally-managed install_data
+[0.524s] running egg_info
+[0.525s] writing ../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[0.525s] writing dependency_links to ../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[0.525s] writing entry points to ../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[0.525s] writing requirements to ../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[0.525s] writing top-level names to ../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[0.527s] reading manifest file '../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.527s] adding license file 'LICENSE'
+[0.527s] writing manifest file '../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.528s] running build
+[0.528s] running build_py
+[0.528s] running install
+[0.528s] running install_lib
+[0.528s] running install_data
+[0.529s] running install_egg_info
+[0.530s] removing '/home/dongxu/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[0.530s] Copying ../build/py_pubsub/py_pubsub.egg-info to /home/dongxu/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[0.530s] running install_scripts
+[0.543s] Installing listener script to /home/dongxu/ros2_ws/src/install/py_pubsub/lib/py_pubsub
+[0.543s] Installing talker script to /home/dongxu/ros2_ws/src/install/py_pubsub/lib/py_pubsub
+[0.543s] writing list of installed files to '/home/dongxu/ros2_ws/src/build/py_pubsub/install.log'
+[0.557s] Invoked command in '/home/dongxu/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/dongxu/ros2_ws/src/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dongxu/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/py_pubsub build --build-base /home/dongxu/ros2_ws/src/build/py_pubsub/build install --record /home/dongxu/ros2_ws/src/build/py_pubsub/install.log --single-version-externally-managed install_data

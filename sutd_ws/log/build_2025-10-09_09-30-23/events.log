@@ -1,0 +1,3 @@
+[0.000000] (-) TimerEvent: {}
+[0.000754] (-) JobUnselected: {'identifier': 'sutd_ws'}
+[0.001005] (-) EventReactorShutdown: {}

@@ -1,0 +1,6 @@
+source;share/sutd_ws/hook/pythonpath.ps1
+source;share/sutd_ws/hook/pythonpath.dsv
+source;share/sutd_ws/hook/pythonpath.sh
+source;share/sutd_ws/hook/ament_prefix_path.ps1
+source;share/sutd_ws/hook/ament_prefix_path.dsv
+source;share/sutd_ws/hook/ament_prefix_path.sh

@@ -1,0 +1,129 @@
+[0.089s] Invoking command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongxu/ros2_ws/install/sutd_ws:/home/dongxu/ros2_ws/install/py_pubsub:/home/dongxu/ros2_ws/install/launch_testing_examples:/home/dongxu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_service:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_client:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/dongxu/ros2_ws/install/examples_rclpy_guard_conditions:/home/dongxu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/dongxu/ros2_ws/src/examples/rclcpp/wait_set -DCMAKE_INSTALL_PREFIX=/home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set
+[11.850s] -- The C compiler identification is GNU 11.4.0
+[11.851s] -- The CXX compiler identification is GNU 11.4.0
+[11.851s] -- Detecting C compiler ABI info
+[11.851s] -- Detecting C compiler ABI info - done
+[11.851s] -- Check for working C compiler: /usr/bin/cc - skipped
+[11.851s] -- Detecting C compile features
+[11.851s] -- Detecting C compile features - done
+[11.851s] -- Detecting CXX compiler ABI info
+[11.851s] -- Detecting CXX compiler ABI info - done
+[11.851s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[11.851s] -- Detecting CXX compile features
+[11.852s] -- Detecting CXX compile features - done
+[11.852s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[11.852s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[11.852s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[11.852s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[11.852s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[11.852s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[11.852s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.852s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.852s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[11.852s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[11.852s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[11.852s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[11.852s] -- Found FastRTPS: /opt/ros/humble/include  
+[11.852s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.852s] -- Looking for pthread.h
+[11.853s] -- Looking for pthread.h - found
+[11.853s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.853s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[11.853s] -- Found Threads: TRUE  
+[11.853s] -- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+[11.853s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.855s] -- Added test 'copyright' to check source files copyright and LICENSE
+[11.859s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.860s] -- Configured cppcheck include dirs: /home/dongxu/ros2_ws/src/examples/rclcpp/wait_set/include
+[11.861s] -- Configured cppcheck exclude dirs and/or files: 
+[11.864s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.864s] -- Configured cpplint exclude dirs and/or files: 
+[11.866s] -- Added test 'lint_cmake' to check CMake code style
+[11.870s] -- Added test 'uncrustify' to check C / C++ code style
+[11.870s] -- Configured uncrustify additional arguments: 
+[11.872s] -- Added test 'xmllint' to check XML markup files
+[11.876s] -- Configuring done
+[11.975s] -- Generating done
+[12.019s] -- Build files have been written to: /home/dongxu/ros2_ws/src/build/examples_rclcpp_wait_set
+[12.168s] Invoked command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongxu/ros2_ws/install/sutd_ws:/home/dongxu/ros2_ws/install/py_pubsub:/home/dongxu/ros2_ws/install/launch_testing_examples:/home/dongxu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_service:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_client:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/dongxu/ros2_ws/install/examples_rclpy_guard_conditions:/home/dongxu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/dongxu/ros2_ws/src/examples/rclcpp/wait_set -DCMAKE_INSTALL_PREFIX=/home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set
+[12.184s] Invoking command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongxu/ros2_ws/install/sutd_ws:/home/dongxu/ros2_ws/install/py_pubsub:/home/dongxu/ros2_ws/install/launch_testing_examples:/home/dongxu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_service:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_client:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/dongxu/ros2_ws/install/examples_rclpy_guard_conditions:/home/dongxu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/dongxu/ros2_ws/src/build/examples_rclcpp_wait_set -- -j16 -l16
+[16.712s] [  4%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[16.712s] [  8%] [32mBuilding CXX object CMakeFiles/wait_set_listener.dir/rclcpp_components/node_main_wait_set_listener.cpp.o[0m
+[16.712s] [ 12%] [32mBuilding CXX object CMakeFiles/wait_set.dir/src/wait_set.cpp.o[0m
+[16.712s] [ 16%] [32mBuilding CXX object CMakeFiles/wait_set_talker.dir/rclcpp_components/node_main_wait_set_talker.cpp.o[0m
+[16.713s] [ 20%] [32mBuilding CXX object CMakeFiles/wait_set_random_order.dir/src/wait_set_random_order.cpp.o[0m
+[16.713s] [ 25%] [32mBuilding CXX object CMakeFiles/wait_set_topics_and_timer.dir/src/wait_set_topics_and_timer.cpp.o[0m
+[16.713s] [ 29%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[16.713s] [ 33%] [32mBuilding CXX object CMakeFiles/static_wait_set.dir/src/static_wait_set.cpp.o[0m
+[16.713s] [ 37%] [32mBuilding CXX object CMakeFiles/thread_safe_wait_set.dir/src/thread_safe_wait_set.cpp.o[0m
+[16.713s] [ 41%] [32mBuilding CXX object CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o[0m
+[16.713s] [ 45%] [32mBuilding CXX object CMakeFiles/executor_random_order.dir/src/executor_random_order.cpp.o[0m
+[31.847s] [ 50%] [32m[1mLinking CXX executable wait_set_listener[0m
+[35.127s] [ 50%] Built target wait_set_listener
+[35.163s] [ 54%] [32m[1mLinking CXX executable wait_set_talker[0m
+[37.220s] [ 54%] Built target wait_set_talker
+[42.966s] [ 58%] [32m[1mLinking CXX shared library libtalker.so[0m
+[44.482s] [ 58%] Built target talker
+[69.785s] [ 62%] [32m[1mLinking CXX executable wait_set[0m
+[71.403s] [ 62%] Built target wait_set
+[72.206s] [ 66%] [32m[1mLinking CXX executable wait_set_random_order[0m
+[72.349s] [ 70%] [32m[1mLinking CXX executable executor_random_order[0m
+[72.979s] [ 75%] [32m[1mLinking CXX executable wait_set_topics_and_timer[0m
+[73.230s] [ 79%] [32m[1mLinking CXX executable thread_safe_wait_set[0m
+[74.457s] [ 83%] [32m[1mLinking CXX shared library liblistener.so[0m
+[74.501s] [ 83%] Built target wait_set_random_order
+[74.624s] [ 83%] Built target wait_set_topics_and_timer
+[75.247s] [ 83%] Built target executor_random_order
+[75.422s] [ 83%] Built target thread_safe_wait_set
+[75.942s] [ 83%] Built target listener
+[75.973s] [ 87%] [32m[1mLinking CXX executable static_wait_set[0m
+[76.997s] [ 87%] Built target static_wait_set
+[79.287s] [ 91%] [32m[1mLinking CXX executable wait_set_topics_with_different_rates[0m
+[80.002s] [ 91%] Built target wait_set_topics_with_different_rates
+[80.029s] [ 95%] [32mBuilding CXX object CMakeFiles/wait_set_composed.dir/src/wait_set_composed.cpp.o[0m
+[83.131s] [100%] [32m[1mLinking CXX executable wait_set_composed[0m
+[83.553s] [100%] Built target wait_set_composed
+[83.671s] Invoked command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongxu/ros2_ws/install/sutd_ws:/home/dongxu/ros2_ws/install/py_pubsub:/home/dongxu/ros2_ws/install/launch_testing_examples:/home/dongxu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_service:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_client:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/dongxu/ros2_ws/install/examples_rclpy_guard_conditions:/home/dongxu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/dongxu/ros2_ws/src/build/examples_rclcpp_wait_set -- -j16 -l16
+[83.679s] Invoking command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongxu/ros2_ws/install/sutd_ws:/home/dongxu/ros2_ws/install/py_pubsub:/home/dongxu/ros2_ws/install/launch_testing_examples:/home/dongxu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_service:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_client:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/dongxu/ros2_ws/install/examples_rclpy_guard_conditions:/home/dongxu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/dongxu/ros2_ws/src/build/examples_rclcpp_wait_set
+[83.693s] -- Install configuration: ""
+[83.693s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+[83.696s] -- Set runtime path of "/home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker" to ""
+[83.696s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+[83.699s] -- Set runtime path of "/home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener" to ""
+[83.699s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/libtalker.so
+[83.702s] -- Set runtime path of "/home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/libtalker.so" to ""
+[83.702s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/liblistener.so
+[83.710s] -- Set runtime path of "/home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/liblistener.so" to ""
+[83.710s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+[83.714s] -- Set runtime path of "/home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set" to ""
+[83.715s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+[83.718s] -- Set runtime path of "/home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set" to ""
+[83.718s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+[83.722s] -- Set runtime path of "/home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set" to ""
+[83.722s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+[83.726s] -- Set runtime path of "/home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer" to ""
+[83.726s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+[83.730s] -- Set runtime path of "/home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order" to ""
+[83.730s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+[83.734s] -- Set runtime path of "/home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order" to ""
+[83.734s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+[83.737s] -- Set runtime path of "/home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates" to ""
+[83.737s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+[83.738s] -- Set runtime path of "/home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed" to ""
+[83.739s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+[83.741s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+[83.742s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.sh
+[83.742s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+[83.743s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.sh
+[83.744s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+[83.744s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+[83.745s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+[83.745s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+[83.746s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+[83.746s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[83.747s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+[83.748s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+[83.749s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+[83.749s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+[83.750s] -- Installing: /home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml
+[83.754s] Invoked command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongxu/ros2_ws/install/sutd_ws:/home/dongxu/ros2_ws/install/py_pubsub:/home/dongxu/ros2_ws/install/launch_testing_examples:/home/dongxu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_service:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_client:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/dongxu/ros2_ws/install/examples_rclpy_guard_conditions:/home/dongxu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/dongxu/ros2_ws/src/build/examples_rclcpp_wait_set

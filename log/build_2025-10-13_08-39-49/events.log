@@ -1,0 +1,27 @@
+[0.000000] (-) TimerEvent: {}
+[0.000277] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000445] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000470] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000493] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000517] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000541] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000564] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000587] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000610] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000634] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000657] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000680] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000725] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000765] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000791] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000804] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000826] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000849] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000873] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000896] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000919] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000942] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.000965] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000988] (-) JobUnselected: {'identifier': 'sutd_ws'}
+[0.001012] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001196] (-) EventReactorShutdown: {}

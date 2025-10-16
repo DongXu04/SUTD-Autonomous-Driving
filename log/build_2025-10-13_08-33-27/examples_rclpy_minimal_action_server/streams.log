@@ -1,0 +1,24 @@
+[4.087s] Invoking command in '/home/dongxu/ros2_ws/src/examples/rclpy/actions/minimal_action_server': PYTHONPATH=/home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_minimal_action_server build --build-base /home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_action_server/build install --record /home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed install_data
+[4.801s] running egg_info
+[4.842s] writing ../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[4.843s] writing dependency_links to ../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[4.844s] writing entry points to ../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[4.844s] writing requirements to ../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/requires.txt
+[4.844s] writing top-level names to ../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[4.898s] reading manifest file '../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[4.900s] writing manifest file '../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[4.901s] running build
+[4.901s] running build_py
+[4.903s] running install
+[4.914s] running install_lib
+[4.940s] running install_data
+[4.940s] running install_egg_info
+[4.964s] removing '/home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server-0.15.4-py3.10.egg-info' (and everything under it)
+[4.964s] Copying ../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info to /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server-0.15.4-py3.10.egg-info
+[4.966s] running install_scripts
+[5.071s] Installing server script to /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[5.073s] Installing server_defer script to /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[5.073s] Installing server_not_composable script to /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[5.073s] Installing server_queue_goals script to /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[5.074s] Installing server_single_goal script to /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[5.075s] writing list of installed files to '/home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_action_server/install.log'

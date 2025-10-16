@@ -1,0 +1,4 @@
+[console_scripts]
+keypressed_calculator = sutd_ws.keypressed_calculator:main
+keypressed_listener = sutd_ws.keypressed_listener:main
+keypressed_talker = sutd_ws.keypressed_talker:main

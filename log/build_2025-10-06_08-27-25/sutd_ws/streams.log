@@ -1,0 +1,34 @@
+[13.282s] Invoking command in '/home/dongxu/ros2_ws/src/sutd_ws': PYTHONPATH=/home/dongxu/ros2_ws/src/build/sutd_ws/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dongxu/ros2_ws/src/install/sutd_ws/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sutd_ws build --build-base /home/dongxu/ros2_ws/src/build/sutd_ws/build install --record /home/dongxu/ros2_ws/src/build/sutd_ws/install.log --single-version-externally-managed install_data
+[14.450s] running egg_info
+[14.451s] creating ../build/sutd_ws/sutd_ws.egg-info
+[14.451s] writing ../build/sutd_ws/sutd_ws.egg-info/PKG-INFO
+[14.451s] writing dependency_links to ../build/sutd_ws/sutd_ws.egg-info/dependency_links.txt
+[14.451s] writing entry points to ../build/sutd_ws/sutd_ws.egg-info/entry_points.txt
+[14.451s] writing requirements to ../build/sutd_ws/sutd_ws.egg-info/requires.txt
+[14.451s] writing top-level names to ../build/sutd_ws/sutd_ws.egg-info/top_level.txt
+[14.451s] writing manifest file '../build/sutd_ws/sutd_ws.egg-info/SOURCES.txt'
+[14.451s] reading manifest file '../build/sutd_ws/sutd_ws.egg-info/SOURCES.txt'
+[14.451s] adding license file 'LICENSE'
+[14.451s] writing manifest file '../build/sutd_ws/sutd_ws.egg-info/SOURCES.txt'
+[14.451s] running build
+[14.451s] running build_py
+[14.452s] creating /home/dongxu/ros2_ws/src/build/sutd_ws/build
+[14.452s] creating /home/dongxu/ros2_ws/src/build/sutd_ws/build/lib
+[14.452s] creating /home/dongxu/ros2_ws/src/build/sutd_ws/build/lib/sutd_ws
+[14.452s] copying sutd_ws/__init__.py -> /home/dongxu/ros2_ws/src/build/sutd_ws/build/lib/sutd_ws
+[14.452s] running install
+[14.452s] running install_lib
+[14.452s] creating /home/dongxu/ros2_ws/src/install/sutd_ws/lib/python3.10/site-packages/sutd_ws
+[14.452s] copying /home/dongxu/ros2_ws/src/build/sutd_ws/build/lib/sutd_ws/__init__.py -> /home/dongxu/ros2_ws/src/install/sutd_ws/lib/python3.10/site-packages/sutd_ws
+[14.452s] byte-compiling /home/dongxu/ros2_ws/src/install/sutd_ws/lib/python3.10/site-packages/sutd_ws/__init__.py to __init__.cpython-310.pyc
+[14.452s] running install_data
+[14.452s] creating /home/dongxu/ros2_ws/src/install/sutd_ws/share/ament_index
+[14.452s] creating /home/dongxu/ros2_ws/src/install/sutd_ws/share/ament_index/resource_index
+[14.453s] creating /home/dongxu/ros2_ws/src/install/sutd_ws/share/ament_index/resource_index/packages
+[14.453s] copying resource/sutd_ws -> /home/dongxu/ros2_ws/src/install/sutd_ws/share/ament_index/resource_index/packages
+[14.453s] copying package.xml -> /home/dongxu/ros2_ws/src/install/sutd_ws/share/sutd_ws
+[14.453s] running install_egg_info
+[14.453s] Copying ../build/sutd_ws/sutd_ws.egg-info to /home/dongxu/ros2_ws/src/install/sutd_ws/lib/python3.10/site-packages/sutd_ws-0.0.0-py3.10.egg-info
+[14.453s] running install_scripts
+[14.453s] writing list of installed files to '/home/dongxu/ros2_ws/src/build/sutd_ws/install.log'
+[14.490s] Invoked command in '/home/dongxu/ros2_ws/src/sutd_ws' returned '0': PYTHONPATH=/home/dongxu/ros2_ws/src/build/sutd_ws/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dongxu/ros2_ws/src/install/sutd_ws/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sutd_ws build --build-base /home/dongxu/ros2_ws/src/build/sutd_ws/build install --record /home/dongxu/ros2_ws/src/build/sutd_ws/install.log --single-version-externally-managed install_data

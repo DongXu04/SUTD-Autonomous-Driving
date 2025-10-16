@@ -1,0 +1,22 @@
+[0.898s] Invoking command in '/home/dongxu/ros2_ws/src/build/sutd_ws': PYTHONPATH=/home/dongxu/ros2_ws/src/build/sutd_ws/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dongxu/ros2_ws/src/install/sutd_ws/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dongxu/ros2_ws/src/build/sutd_ws/build --no-deps symlink_data
+[1.166s] running develop
+[1.321s] running egg_info
+[1.329s] writing sutd_ws.egg-info/PKG-INFO
+[1.330s] writing dependency_links to sutd_ws.egg-info/dependency_links.txt
+[1.330s] writing entry points to sutd_ws.egg-info/entry_points.txt
+[1.330s] writing requirements to sutd_ws.egg-info/requires.txt
+[1.330s] writing top-level names to sutd_ws.egg-info/top_level.txt
+[1.351s] reading manifest file 'sutd_ws.egg-info/SOURCES.txt'
+[1.351s] writing manifest file 'sutd_ws.egg-info/SOURCES.txt'
+[1.362s] running build_ext
+[1.362s] Creating /home/dongxu/ros2_ws/src/install/sutd_ws/lib/python3.10/site-packages/sutd-ws.egg-link (link to .)
+[1.363s] Installing autonomous_driving1 script to /home/dongxu/ros2_ws/src/install/sutd_ws/lib/sutd_ws
+[1.363s] Installing autonomous_driving2 script to /home/dongxu/ros2_ws/src/install/sutd_ws/lib/sutd_ws
+[1.364s] Installing autonomous_driving3 script to /home/dongxu/ros2_ws/src/install/sutd_ws/lib/sutd_ws
+[1.364s] Installing keypressed_calculator script to /home/dongxu/ros2_ws/src/install/sutd_ws/lib/sutd_ws
+[1.364s] Installing keypressed_listener script to /home/dongxu/ros2_ws/src/install/sutd_ws/lib/sutd_ws
+[1.364s] Installing keypressed_talker script to /home/dongxu/ros2_ws/src/install/sutd_ws/lib/sutd_ws
+[1.364s] 
+[1.364s] Installed /home/dongxu/ros2_ws/src/build/sutd_ws
+[1.364s] running symlink_data
+[1.396s] Invoked command in '/home/dongxu/ros2_ws/src/build/sutd_ws' returned '0': PYTHONPATH=/home/dongxu/ros2_ws/src/build/sutd_ws/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dongxu/ros2_ws/src/install/sutd_ws/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dongxu/ros2_ws/src/build/sutd_ws/build --no-deps symlink_data

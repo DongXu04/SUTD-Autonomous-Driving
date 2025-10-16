@@ -1,0 +1,54 @@
+[9.051s] Invoking command in '/home/dongxu/ros2_ws/src/build/f1tenth_simulator': /usr/bin/cmake /home/dongxu/ros2_ws/src/f1tenth_simulator -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/dongxu/ros2_ws/src/install/f1tenth_simulator
+[11.461s] -- The C compiler identification is GNU 11.4.0
+[12.348s] -- The CXX compiler identification is GNU 11.4.0
+[14.360s] -- Detecting C compiler ABI info
+[15.108s] -- Detecting C compiler ABI info - done
+[15.141s] -- Check for working C compiler: /usr/bin/cc - skipped
+[15.152s] -- Detecting C compile features
+[15.152s] -- Detecting C compile features - done
+[15.164s] -- Detecting CXX compiler ABI info
+[16.172s] -- Detecting CXX compiler ABI info - done
+[16.205s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[16.206s] -- Detecting CXX compile features
+[16.216s] -- Detecting CXX compile features - done
+[16.304s] -- Configuring done
+[16.314s] -- Generating done
+[16.320s] [33mCMake Warning:
+[16.320s]   Manually-specified variables were not used by the project:
+[16.320s] 
+[16.320s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[16.321s] 
+[16.321s] [0m
+[16.321s] -- Build files have been written to: /home/dongxu/ros2_ws/src/build/f1tenth_simulator
+[16.329s] Invoked command in '/home/dongxu/ros2_ws/src/build/f1tenth_simulator' returned '0': /usr/bin/cmake /home/dongxu/ros2_ws/src/f1tenth_simulator -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/dongxu/ros2_ws/src/install/f1tenth_simulator
+[16.335s] Invoking command in '/home/dongxu/ros2_ws/src/build/f1tenth_simulator': /usr/bin/cmake --build /home/dongxu/ros2_ws/src/build/f1tenth_simulator -- -j16 -l16
+[16.464s] [ 16%] [32mBuilding CXX object CMakeFiles/f1tenth_simulator.dir/src/distance_transform.cpp.o[0m
+[17.507s] [ 33%] [32mBuilding CXX object CMakeFiles/f1tenth_simulator.dir/src/st_kinematics.cpp.o[0m
+[18.129s] [01m[K/home/dongxu/ros2_ws/src/f1tenth_simulator/src/st_kinematics.cpp:[m[K In static member function ‘[01m[Kstatic racecar_simulator::CarState racecar_simulator::STKinematics::update_k(racecar_simulator::CarState, double, double, racecar_simulator::CarParams, double)[m[K’:
+[18.129s] [01m[K/home/dongxu/ros2_ws/src/f1tenth_simulator/src/st_kinematics.cpp:102:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktheta_double_dot[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[18.129s]   102 |     double [01;35m[Ktheta_double_dot[m[K = accel / p.wheelbase * std::tan(start.steer_angle) +
+[18.130s]       |            [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[18.130s] [01m[K/home/dongxu/ros2_ws/src/f1tenth_simulator/src/st_kinematics.cpp:104:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kslip_angle_dot[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[18.130s]   104 |     double [01;35m[Kslip_angle_dot[m[K = 0;
+[18.130s]       |            [01;35m[K^~~~~~~~~~~~~~[m[K
+[18.288s] [ 50%] [32mBuilding CXX object CMakeFiles/f1tenth_simulator.dir/src/scan_simulator_2d.cpp.o[0m
+[19.398s] [ 66%] [32mBuilding CXX object CMakeFiles/f1tenth_simulator.dir/src/precompute.cpp.o[0m
+[19.698s] [ 83%] [32mBuilding CXX object CMakeFiles/f1tenth_simulator.dir/src/ks_kinematics.cpp.o[0m
+[19.830s] [100%] [32m[1mLinking CXX static library libf1tenth_simulator.a[0m
+[20.234s] [100%] Built target f1tenth_simulator
+[20.256s] Invoked command in '/home/dongxu/ros2_ws/src/build/f1tenth_simulator' returned '0': /usr/bin/cmake --build /home/dongxu/ros2_ws/src/build/f1tenth_simulator -- -j16 -l16
+[20.260s] Invoking command in '/home/dongxu/ros2_ws/src/build/f1tenth_simulator': /usr/bin/cmake --install /home/dongxu/ros2_ws/src/build/f1tenth_simulator
+[20.272s] -- Install configuration: "Release"
+[20.273s] -- Installing: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/lib/libf1tenth_simulator.a
+[20.273s] -- Installing: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator
+[20.273s] -- Installing: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/precompute.hpp
+[20.274s] -- Installing: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/ks_kinematics.hpp
+[20.274s] -- Installing: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/channel.h
+[20.274s] -- Installing: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/distance_transform.hpp
+[20.275s] -- Installing: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/scan_simulator_2d.hpp
+[20.275s] -- Installing: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/car_params.hpp
+[20.275s] -- Installing: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/pose_2d.hpp
+[20.275s] -- Installing: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/ackermann_kinematics.hpp
+[20.276s] -- Installing: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/car_state.hpp
+[20.276s] -- Installing: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/st_kinematics.hpp
+[20.281s] Invoked command in '/home/dongxu/ros2_ws/src/build/f1tenth_simulator' returned '0': /usr/bin/cmake --install /home/dongxu/ros2_ws/src/build/f1tenth_simulator

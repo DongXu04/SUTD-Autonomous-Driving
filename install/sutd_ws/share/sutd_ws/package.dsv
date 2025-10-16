@@ -1,0 +1,9 @@
+source;share/sutd_ws/hook/pythonpath.ps1
+source;share/sutd_ws/hook/pythonpath.dsv
+source;share/sutd_ws/hook/pythonpath.sh
+source;share/sutd_ws/hook/ament_prefix_path.ps1
+source;share/sutd_ws/hook/ament_prefix_path.dsv
+source;share/sutd_ws/hook/ament_prefix_path.sh
+source;../../build/sutd_ws/share/sutd_ws/hook/pythonpath_develop.ps1
+source;../../build/sutd_ws/share/sutd_ws/hook/pythonpath_develop.dsv
+source;../../build/sutd_ws/share/sutd_ws/hook/pythonpath_develop.sh

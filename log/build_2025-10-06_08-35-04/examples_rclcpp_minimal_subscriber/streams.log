@@ -1,0 +1,94 @@
+[0.125s] Invoking command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongxu/ros2_ws/install/sutd_ws:/home/dongxu/ros2_ws/install/py_pubsub:/home/dongxu/ros2_ws/install/launch_testing_examples:/home/dongxu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_service:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_client:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/dongxu/ros2_ws/install/examples_rclpy_guard_conditions:/home/dongxu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/dongxu/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_subscriber
+[1.210s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.210s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.210s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.211s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.211s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.211s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.211s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.211s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.211s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.211s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[11.659s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.721s] -- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+[11.798s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.887s] -- Added test 'copyright' to check source files copyright and LICENSE
+[11.889s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.889s] -- Configured cppcheck include dirs: 
+[11.889s] -- Configured cppcheck exclude dirs and/or files: 
+[11.890s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.890s] -- Configured cpplint exclude dirs and/or files: 
+[11.891s] -- Added test 'lint_cmake' to check CMake code style
+[11.891s] -- Added test 'uncrustify' to check C / C++ code style
+[11.891s] -- Configured uncrustify additional arguments: 
+[11.892s] -- Added test 'xmllint' to check XML markup files
+[11.894s] -- Configuring done
+[11.948s] -- Generating done
+[11.963s] -- Build files have been written to: /home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_subscriber
+[11.983s] Invoked command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongxu/ros2_ws/install/sutd_ws:/home/dongxu/ros2_ws/install/py_pubsub:/home/dongxu/ros2_ws/install/launch_testing_examples:/home/dongxu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_service:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_client:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/dongxu/ros2_ws/install/examples_rclpy_guard_conditions:/home/dongxu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/dongxu/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_subscriber
+[11.983s] Invoking command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongxu/ros2_ws/install/sutd_ws:/home/dongxu/ros2_ws/install/py_pubsub:/home/dongxu/ros2_ws/install/launch_testing_examples:/home/dongxu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_service:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_client:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/dongxu/ros2_ws/install/examples_rclpy_guard_conditions:/home/dongxu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_subscriber -- -j16 -l16
+[13.348s] [35m[1mConsolidate compiler generated dependencies of target subscriber_member_function[0m
+[13.348s] [35m[1mConsolidate compiler generated dependencies of target subscriber_lambda[0m
+[13.348s] [35m[1mConsolidate compiler generated dependencies of target subscriber_member_function_with_unique_network_flow_endpoints[0m
+[13.348s] [35m[1mConsolidate compiler generated dependencies of target wait_set_subscriber[0m
+[13.349s] [35m[1mConsolidate compiler generated dependencies of target subscriber_member_function_with_type_adapter[0m
+[13.349s] [35m[1mConsolidate compiler generated dependencies of target subscriber_content_filtering[0m
+[13.349s] [35m[1mConsolidate compiler generated dependencies of target subscriber_not_composable[0m
+[13.349s] [35m[1mConsolidate compiler generated dependencies of target wait_set_subscriber_library[0m
+[13.349s] [35m[1mConsolidate compiler generated dependencies of target subscriber_member_function_with_topic_statistics[0m
+[13.349s] [35m[1mConsolidate compiler generated dependencies of target static_wait_set_subscriber[0m
+[13.349s] [35m[1mConsolidate compiler generated dependencies of target time_triggered_wait_set_subscriber[0m
+[13.349s] [  4%] [32m[1mLinking CXX executable subscriber_member_function[0m
+[13.349s] [ 12%] [32m[1mLinking CXX executable wait_set_subscriber[0m
+[13.349s] [ 12%] [32m[1mLinking CXX executable subscriber_member_function_with_unique_network_flow_endpoints[0m
+[13.350s] [ 16%] [32m[1mLinking CXX executable subscriber_lambda[0m
+[13.350s] [ 20%] [32m[1mLinking CXX executable subscriber_not_composable[0m
+[13.350s] [ 25%] [32m[1mLinking CXX shared library libwait_set_subscriber_library.so[0m
+[13.350s] [ 29%] [32m[1mLinking CXX executable subscriber_content_filtering[0m
+[13.350s] [ 33%] [32m[1mLinking CXX executable subscriber_member_function_with_type_adapter[0m
+[13.350s] [ 37%] [32m[1mLinking CXX executable subscriber_member_function_with_topic_statistics[0m
+[13.350s] [ 41%] [32m[1mLinking CXX executable static_wait_set_subscriber[0m
+[13.350s] [ 45%] [32m[1mLinking CXX executable time_triggered_wait_set_subscriber[0m
+[13.350s] [ 50%] Built target wait_set_subscriber
+[13.351s] [ 54%] Built target static_wait_set_subscriber
+[13.351s] [ 58%] Built target time_triggered_wait_set_subscriber
+[13.351s] [ 62%] Built target subscriber_lambda
+[13.352s] [ 66%] Built target subscriber_member_function
+[13.352s] [ 70%] Built target subscriber_member_function_with_unique_network_flow_endpoints
+[13.352s] [ 75%] Built target subscriber_member_function_with_topic_statistics
+[13.352s] [ 79%] Built target subscriber_content_filtering
+[13.352s] [ 83%] Built target subscriber_not_composable
+[13.352s] [ 87%] Built target subscriber_member_function_with_type_adapter
+[13.438s] [100%] Built target wait_set_subscriber_library
+[13.653s] Invoked command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongxu/ros2_ws/install/sutd_ws:/home/dongxu/ros2_ws/install/py_pubsub:/home/dongxu/ros2_ws/install/launch_testing_examples:/home/dongxu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_service:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_client:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/dongxu/ros2_ws/install/examples_rclpy_guard_conditions:/home/dongxu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_subscriber -- -j16 -l16
+[13.660s] Invoking command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongxu/ros2_ws/install/sutd_ws:/home/dongxu/ros2_ws/install/py_pubsub:/home/dongxu/ros2_ws/install/launch_testing_examples:/home/dongxu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_service:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_client:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/dongxu/ros2_ws/install/examples_rclpy_guard_conditions:/home/dongxu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_subscriber
+[13.805s] -- Install configuration: ""
+[13.805s] -- Execute custom install script
+[13.805s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/wait_set_subscriber
+[13.805s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/static_wait_set_subscriber
+[13.805s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/time_triggered_wait_set_subscriber
+[13.805s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/lib/libwait_set_subscriber_library.so
+[13.806s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[13.806s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[13.806s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_topic_statistics
+[13.806s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_type_adapter
+[13.806s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_unique_network_flow_endpoints
+[13.806s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[13.806s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_content_filtering
+[13.807s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[13.822s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[13.852s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[13.884s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.dsv
+[13.931s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[13.963s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.dsv
+[13.987s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[14.023s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[14.064s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[14.109s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+[14.131s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+[14.148s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[14.164s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_minimal_subscriber
+[14.180s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[14.195s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[14.210s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml
+[14.530s] Invoked command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dongxu/ros2_ws/install/sutd_ws:/home/dongxu/ros2_ws/install/py_pubsub:/home/dongxu/ros2_ws/install/launch_testing_examples:/home/dongxu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_service:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_client:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/dongxu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/dongxu/ros2_ws/install/examples_rclpy_guard_conditions:/home/dongxu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_subscriber

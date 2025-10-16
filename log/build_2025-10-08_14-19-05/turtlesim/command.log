@@ -1,0 +1,1 @@
+Invoking command in '/home/dongxu/ros2_ws/src/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dongxu/ros2_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/dongxu/ros2_ws/src/install/turtlesim

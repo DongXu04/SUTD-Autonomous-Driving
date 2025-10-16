@@ -1,0 +1,22 @@
+[2.437s] Invoking command in '/home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_client': PYTHONPATH=/home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_client/build --no-deps symlink_data --force
+[2.998s] running develop
+[3.239s] running egg_info
+[3.239s] writing examples_rclpy_minimal_client.egg-info/PKG-INFO
+[3.240s] writing dependency_links to examples_rclpy_minimal_client.egg-info/dependency_links.txt
+[3.240s] writing entry points to examples_rclpy_minimal_client.egg-info/entry_points.txt
+[3.243s] writing requirements to examples_rclpy_minimal_client.egg-info/requires.txt
+[3.246s] writing top-level names to examples_rclpy_minimal_client.egg-info/top_level.txt
+[3.247s] reading manifest file 'examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[3.248s] writing manifest file 'examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[3.248s] running build_ext
+[3.248s] Creating /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples-rclpy-minimal-client.egg-link (link to .)
+[3.249s] Installing client script to /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[3.249s] Installing client_async script to /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[3.249s] Installing client_async_callback script to /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[3.249s] Installing client_async_member_function script to /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[3.249s] 
+[3.250s] Installed /home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_client
+[3.250s] running symlink_data
+[3.250s] symbolically linking /home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_client/resource/examples_rclpy_minimal_client -> /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_client/share/ament_index/resource_index/packages
+[3.250s] symbolically linking /home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_client/package.xml -> /home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_client/share/examples_rclpy_minimal_client
+[3.322s] Invoked command in '/home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_client' returned '0': PYTHONPATH=/home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_client/build --no-deps symlink_data --force

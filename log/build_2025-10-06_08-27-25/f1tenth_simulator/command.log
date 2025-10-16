@@ -1,0 +1,6 @@
+Invoking command in '/home/dongxu/ros2_ws/src/build/f1tenth_simulator': /usr/bin/cmake /home/dongxu/ros2_ws/src/f1tenth_simulator -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/dongxu/ros2_ws/src/install/f1tenth_simulator
+Invoked command in '/home/dongxu/ros2_ws/src/build/f1tenth_simulator' returned '0': /usr/bin/cmake /home/dongxu/ros2_ws/src/f1tenth_simulator -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/dongxu/ros2_ws/src/install/f1tenth_simulator
+Invoking command in '/home/dongxu/ros2_ws/src/build/f1tenth_simulator': /usr/bin/cmake --build /home/dongxu/ros2_ws/src/build/f1tenth_simulator -- -j16 -l16
+Invoked command in '/home/dongxu/ros2_ws/src/build/f1tenth_simulator' returned '0': /usr/bin/cmake --build /home/dongxu/ros2_ws/src/build/f1tenth_simulator -- -j16 -l16
+Invoking command in '/home/dongxu/ros2_ws/src/build/f1tenth_simulator': /usr/bin/cmake --install /home/dongxu/ros2_ws/src/build/f1tenth_simulator
+Invoked command in '/home/dongxu/ros2_ws/src/build/f1tenth_simulator' returned '0': /usr/bin/cmake --install /home/dongxu/ros2_ws/src/build/f1tenth_simulator

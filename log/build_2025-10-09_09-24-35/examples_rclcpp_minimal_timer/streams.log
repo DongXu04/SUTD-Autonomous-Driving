@@ -1,0 +1,25 @@
+[0.056s] Invoking command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_timer -- -j16 -l16
+[1.058s] [ 50%] Built target timer_lambda
+[1.059s] [100%] Built target timer_member_function
+[1.087s] Invoked command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_timer -- -j16 -l16
+[1.091s] Invoking command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_timer
+[1.138s] -- Install configuration: ""
+[1.138s] -- Execute custom install script
+[1.138s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda
+[1.138s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function
+[1.138s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_timer
+[1.139s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_timer
+[1.139s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.sh
+[1.139s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.dsv
+[1.139s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.sh
+[1.139s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.dsv
+[1.139s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.bash
+[1.139s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.sh
+[1.139s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.zsh
+[1.139s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.dsv
+[1.139s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.dsv
+[1.139s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/packages/examples_rclcpp_minimal_timer
+[1.140s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig.cmake
+[1.140s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig-version.cmake
+[1.140s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.xml
+[1.259s] Invoked command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_timer

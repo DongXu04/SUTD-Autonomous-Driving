@@ -1,0 +1,2 @@
+Invoking command in '/home/dongxu/ros2_ws/src/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dongxu/ros2_ws/src/build/turtlesim -- -j16 -l16
+Invoked command in '/home/dongxu/ros2_ws/src/build/turtlesim' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dongxu/ros2_ws/src/build/turtlesim -- -j16 -l16

@@ -1,0 +1,18 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dongxu/ros2_ws/src/build/f1tenth_simulator
+[35m[1mConsolidate compiler generated dependencies of target f1tenth_simulator[0m
+[100%] Built target f1tenth_simulator
+-- Install configuration: "Release"
+-- Up-to-date: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/lib/libf1tenth_simulator.a
+-- Up-to-date: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator
+-- Up-to-date: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/precompute.hpp
+-- Up-to-date: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/ks_kinematics.hpp
+-- Up-to-date: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/channel.h
+-- Up-to-date: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/distance_transform.hpp
+-- Up-to-date: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/scan_simulator_2d.hpp
+-- Up-to-date: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/car_params.hpp
+-- Up-to-date: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/pose_2d.hpp
+-- Up-to-date: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/ackermann_kinematics.hpp
+-- Up-to-date: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/car_state.hpp
+-- Up-to-date: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/st_kinematics.hpp

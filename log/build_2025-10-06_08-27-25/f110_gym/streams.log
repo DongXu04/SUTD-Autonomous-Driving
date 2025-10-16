@@ -1,0 +1,18 @@
+[13.040s] Invoking command in '/home/dongxu/ros2_ws/src/f1tenth_gym': PYTHONPATH=/home/dongxu/ros2_ws/src/build/f110_gym/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dongxu/ros2_ws/src/install/f110_gym/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/f110_gym build --build-base /home/dongxu/ros2_ws/src/build/f110_gym/build install --record /home/dongxu/ros2_ws/src/build/f110_gym/install.log --single-version-externally-managed
+[15.924s] running egg_info
+[15.924s] creating ../build/f110_gym/f110_gym.egg-info
+[15.924s] writing ../build/f110_gym/f110_gym.egg-info/PKG-INFO
+[15.925s] writing dependency_links to ../build/f110_gym/f110_gym.egg-info/dependency_links.txt
+[15.925s] writing requirements to ../build/f110_gym/f110_gym.egg-info/requires.txt
+[15.925s] writing top-level names to ../build/f110_gym/f110_gym.egg-info/top_level.txt
+[15.926s] writing manifest file '../build/f110_gym/f110_gym.egg-info/SOURCES.txt'
+[15.933s] reading manifest file '../build/f110_gym/f110_gym.egg-info/SOURCES.txt'
+[15.934s] adding license file 'LICENSE'
+[15.934s] writing manifest file '../build/f110_gym/f110_gym.egg-info/SOURCES.txt'
+[15.935s] running build
+[15.935s] running install
+[15.936s] running install_egg_info
+[15.946s] Copying ../build/f110_gym/f110_gym.egg-info to /home/dongxu/ros2_ws/src/install/f110_gym/lib/python3.10/site-packages/f110_gym-0.2.1-py3.10.egg-info
+[15.959s] running install_scripts
+[16.010s] writing list of installed files to '/home/dongxu/ros2_ws/src/build/f110_gym/install.log'
+[16.077s] Invoked command in '/home/dongxu/ros2_ws/src/f1tenth_gym' returned '0': PYTHONPATH=/home/dongxu/ros2_ws/src/build/f110_gym/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dongxu/ros2_ws/src/install/f110_gym/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/f110_gym build --build-base /home/dongxu/ros2_ws/src/build/f110_gym/build install --record /home/dongxu/ros2_ws/src/build/f110_gym/install.log --single-version-externally-managed

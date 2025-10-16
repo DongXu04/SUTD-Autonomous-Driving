@@ -1,0 +1,48 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CATKIN_INSTALL_INTO_PREFIX_ROOT
+
+[0m
+-- Build files have been written to: /home/dongxu/ros2_ws/src/build/f1tenth_simulator
+[ 16%] [32mBuilding CXX object CMakeFiles/f1tenth_simulator.dir/src/distance_transform.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/f1tenth_simulator.dir/src/st_kinematics.cpp.o[0m
+[01m[K/home/dongxu/ros2_ws/src/f1tenth_simulator/src/st_kinematics.cpp:[m[K In static member function ‘[01m[Kstatic racecar_simulator::CarState racecar_simulator::STKinematics::update_k(racecar_simulator::CarState, double, double, racecar_simulator::CarParams, double)[m[K’:
+[01m[K/home/dongxu/ros2_ws/src/f1tenth_simulator/src/st_kinematics.cpp:102:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktheta_double_dot[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  102 |     double [01;35m[Ktheta_double_dot[m[K = accel / p.wheelbase * std::tan(start.steer_angle) +
+      |            [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dongxu/ros2_ws/src/f1tenth_simulator/src/st_kinematics.cpp:104:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kslip_angle_dot[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  104 |     double [01;35m[Kslip_angle_dot[m[K = 0;
+      |            [01;35m[K^~~~~~~~~~~~~~[m[K
+[ 50%] [32mBuilding CXX object CMakeFiles/f1tenth_simulator.dir/src/scan_simulator_2d.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/f1tenth_simulator.dir/src/precompute.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/f1tenth_simulator.dir/src/ks_kinematics.cpp.o[0m
+[100%] [32m[1mLinking CXX static library libf1tenth_simulator.a[0m
+[100%] Built target f1tenth_simulator
+-- Install configuration: "Release"
+-- Installing: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/lib/libf1tenth_simulator.a
+-- Installing: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator
+-- Installing: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/precompute.hpp
+-- Installing: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/ks_kinematics.hpp
+-- Installing: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/channel.h
+-- Installing: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/distance_transform.hpp
+-- Installing: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/scan_simulator_2d.hpp
+-- Installing: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/car_params.hpp
+-- Installing: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/pose_2d.hpp
+-- Installing: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/ackermann_kinematics.hpp
+-- Installing: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/car_state.hpp
+-- Installing: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/st_kinematics.hpp

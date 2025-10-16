@@ -1,0 +1,30 @@
+[0.613s] Invoking command in '/home/dongxu/ros2_ws/src/build/f1tenth_simulator': /usr/bin/cmake /home/dongxu/ros2_ws/src/f1tenth_simulator -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/dongxu/ros2_ws/src/install/f1tenth_simulator
+[0.622s] -- Configuring done
+[0.622s] -- Generating done
+[0.623s] [33mCMake Warning:
+[0.623s]   Manually-specified variables were not used by the project:
+[0.623s] 
+[0.623s]     CATKIN_SYMLINK_INSTALL
+[0.623s] 
+[0.624s] [0m
+[0.624s] -- Build files have been written to: /home/dongxu/ros2_ws/src/build/f1tenth_simulator
+[0.785s] Invoked command in '/home/dongxu/ros2_ws/src/build/f1tenth_simulator' returned '0': /usr/bin/cmake /home/dongxu/ros2_ws/src/f1tenth_simulator -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/dongxu/ros2_ws/src/install/f1tenth_simulator
+[0.787s] Invoking command in '/home/dongxu/ros2_ws/src/build/f1tenth_simulator': /usr/bin/cmake --build /home/dongxu/ros2_ws/src/build/f1tenth_simulator -- -j16 -l16
+[0.846s] [35m[1mConsolidate compiler generated dependencies of target f1tenth_simulator[0m
+[0.871s] [100%] Built target f1tenth_simulator
+[2.132s] Invoked command in '/home/dongxu/ros2_ws/src/build/f1tenth_simulator' returned '0': /usr/bin/cmake --build /home/dongxu/ros2_ws/src/build/f1tenth_simulator -- -j16 -l16
+[2.134s] Invoking command in '/home/dongxu/ros2_ws/src/build/f1tenth_simulator': /usr/bin/cmake --install /home/dongxu/ros2_ws/src/build/f1tenth_simulator
+[2.192s] -- Install configuration: "Release"
+[2.193s] -- Up-to-date: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/lib/libf1tenth_simulator.a
+[2.193s] -- Up-to-date: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator
+[2.194s] -- Up-to-date: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/precompute.hpp
+[2.196s] -- Up-to-date: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/ks_kinematics.hpp
+[2.196s] -- Up-to-date: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/channel.h
+[2.196s] -- Up-to-date: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/distance_transform.hpp
+[2.197s] -- Up-to-date: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/scan_simulator_2d.hpp
+[2.197s] -- Up-to-date: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/car_params.hpp
+[2.197s] -- Up-to-date: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/pose_2d.hpp
+[2.197s] -- Up-to-date: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/ackermann_kinematics.hpp
+[2.197s] -- Up-to-date: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/car_state.hpp
+[2.198s] -- Up-to-date: /home/dongxu/ros2_ws/src/install/f1tenth_simulator/include/f1tenth_simulator/st_kinematics.hpp
+[2.206s] Invoked command in '/home/dongxu/ros2_ws/src/build/f1tenth_simulator' returned '0': /usr/bin/cmake --install /home/dongxu/ros2_ws/src/build/f1tenth_simulator

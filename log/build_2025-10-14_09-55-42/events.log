@@ -1,0 +1,75 @@
+[0.000000] (-) TimerEvent: {}
+[0.000432] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000501] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000547] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000570] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000611] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000648] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000689] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000728] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000767] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000805] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000844] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000883] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000902] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000936] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000969] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.001002] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.001034] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.001066] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.001102] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.001143] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.001185] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.001227] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.001245] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.001260] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001278] (sutd_ws) JobQueued: {'identifier': 'sutd_ws', 'dependencies': OrderedDict()}
+[0.001299] (sutd_ws) JobStarted: {'identifier': 'sutd_ws'}
+[0.098998] (-) TimerEvent: {}
+[0.199403] (-) TimerEvent: {}
+[0.299745] (-) TimerEvent: {}
+[0.400075] (-) TimerEvent: {}
+[0.500464] (-) TimerEvent: {}
+[0.600811] (-) TimerEvent: {}
+[0.701660] (-) TimerEvent: {}
+[0.801987] (-) TimerEvent: {}
+[0.902332] (-) TimerEvent: {}
+[1.002694] (-) TimerEvent: {}
+[1.102999] (-) TimerEvent: {}
+[1.118618] (sutd_ws) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/dongxu/ros2_ws/src/build/sutd_ws/build', '--no-deps', 'symlink_data'], 'cwd': '/home/dongxu/ros2_ws/src/build/sutd_ws', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dongxu', 'ROS_PACKAGE_PATH': '/home/dongxu/ros2_ws/src/install/f1tenth_simulator/share', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/dongxu/ros2_ws/src/install/turtlesim/lib:/home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set/lib:/home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_subscriber/lib:/home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/dongxu', 'OLDPWD': '/home/dongxu', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', '_colcon_cd_root': '/opt/ros/humble/', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/dongxu/ros2_ws/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'dongxu', 'NAME': 'MSI', 'WSL_INTEROP': '/run/WSL/742_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/dongxu/ros2_ws/src/install/f1tenth_simulator/lib/x86_64-linux-gnu/pkgconfig:/home/dongxu/ros2_ws/src/install/f1tenth_simulator/lib/pkgconfig', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/home/dongxu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Users/dongx/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/dongx/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': '6e3309da-0164-44b3-b07a-f92d21d9b84f', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '99', 'AMENT_PREFIX_PATH': '/home/dongxu/ros2_ws/src/install/turtlesim:/home/dongxu/ros2_ws/src/install/sutd_ws:/home/dongxu/ros2_ws/src/install/py_pubsub:/home/dongxu/ros2_ws/src/install/launch_testing_examples:/home/dongxu/ros2_ws/src/install/examples_rclpy_pointcloud_publisher:/home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_service:/home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_client:/home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/dongxu/ros2_ws/src/install/examples_rclpy_guard_conditions:/home/dongxu/ros2_ws/src/install/examples_rclpy_executors:/home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set:/home/dongxu/ros2_ws/src/install/examples_rclcpp_multithreaded_executor:/home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_timer:/home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_subscriber:/home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_service:/home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_publisher:/home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_composition:/home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_action_client:/home/dongxu/ros2_ws/src/install/examples_rclcpp_cbg_executor:/home/dongxu/ros2_ws/src/install/examples_rclcpp_async_client:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/dongxu/ros2_ws/src/build/sutd_ws', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dongxu/ros2_ws/src/build/sutd_ws/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dongxu/ros2_ws/src/install/sutd_ws/lib/python3.10/site-packages:/home/dongxu/ros2_ws/src/install/turtlesim/local/lib/python3.10/dist-packages:/home/dongxu/ros2_ws/src/build/sutd_ws:/home/dongxu/ros2_ws/src/install/sutd_ws/lib/python3.10/site-packages:/home/dongxu/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages:/home/dongxu/ros2_ws/src/install/launch_testing_examples/lib/python3.10/site-packages:/home/dongxu/ros2_ws/src/install/f110_gym/lib/python3.10/site-packages:/home/dongxu/ros2_ws/src/build/examples_rclpy_pointcloud_publisher:/home/dongxu/ros2_ws/src/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_subscriber:/home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_service:/home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_publisher:/home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/dongxu/ros2_ws/src/build/examples_rclpy_minimal_client:/home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/dongxu/ros2_ws/src/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/dongxu/ros2_ws/src/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/dongxu/ros2_ws/src/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/dongxu/ros2_ws/src/install/turtlesim:/home/dongxu/ros2_ws/src/install/examples_rclcpp_wait_set:/home/dongxu/ros2_ws/src/install/examples_rclcpp_multithreaded_executor:/home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_timer:/home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_subscriber:/home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_service:/home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_publisher:/home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_composition:/home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_action_client:/home/dongxu/ros2_ws/src/install/examples_rclcpp_cbg_executor:/home/dongxu/ros2_ws/src/install/examples_rclcpp_async_client', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[1.203138] (-) TimerEvent: {}
+[1.303449] (-) TimerEvent: {}
+[1.403749] (-) TimerEvent: {}
+[1.504067] (-) TimerEvent: {}
+[1.580233] (sutd_ws) StdoutLine: {'line': b'running develop\n'}
+[1.604365] (-) TimerEvent: {}
+[1.704714] (-) TimerEvent: {}
+[1.805018] (-) TimerEvent: {}
+[1.864716] (sutd_ws) StdoutLine: {'line': b'running egg_info\n'}
+[1.878643] (sutd_ws) StdoutLine: {'line': b'writing sutd_ws.egg-info/PKG-INFO\n'}
+[1.879441] (sutd_ws) StdoutLine: {'line': b'writing dependency_links to sutd_ws.egg-info/dependency_links.txt\n'}
+[1.880411] (sutd_ws) StdoutLine: {'line': b'writing entry points to sutd_ws.egg-info/entry_points.txt\n'}
+[1.881485] (sutd_ws) StdoutLine: {'line': b'writing requirements to sutd_ws.egg-info/requires.txt\n'}
+[1.881625] (sutd_ws) StdoutLine: {'line': b'writing top-level names to sutd_ws.egg-info/top_level.txt\n'}
+[1.905578] (-) TimerEvent: {}
+[1.916763] (sutd_ws) StdoutLine: {'line': b"reading manifest file 'sutd_ws.egg-info/SOURCES.txt'\n"}
+[1.918276] (sutd_ws) StdoutLine: {'line': b"writing manifest file 'sutd_ws.egg-info/SOURCES.txt'\n"}
+[1.936490] (sutd_ws) StdoutLine: {'line': b'running build_ext\n'}
+[1.936921] (sutd_ws) StdoutLine: {'line': b'Creating /home/dongxu/ros2_ws/src/install/sutd_ws/lib/python3.10/site-packages/sutd-ws.egg-link (link to .)\n'}
+[1.938904] (sutd_ws) StdoutLine: {'line': b'Installing autonomous_driving1 script to /home/dongxu/ros2_ws/src/install/sutd_ws/lib/sutd_ws\n'}
+[1.939409] (sutd_ws) StdoutLine: {'line': b'Installing autonomous_driving2 script to /home/dongxu/ros2_ws/src/install/sutd_ws/lib/sutd_ws\n'}
+[1.939607] (sutd_ws) StdoutLine: {'line': b'Installing autonomous_driving3 script to /home/dongxu/ros2_ws/src/install/sutd_ws/lib/sutd_ws\n'}
+[1.939768] (sutd_ws) StdoutLine: {'line': b'Installing gap_follower script to /home/dongxu/ros2_ws/src/install/sutd_ws/lib/sutd_ws\n'}
+[1.940062] (sutd_ws) StdoutLine: {'line': b'Installing gap_follower2 script to /home/dongxu/ros2_ws/src/install/sutd_ws/lib/sutd_ws\n'}
+[1.940191] (sutd_ws) StdoutLine: {'line': b'Installing gap_follower3 script to /home/dongxu/ros2_ws/src/install/sutd_ws/lib/sutd_ws\n'}
+[1.940297] (sutd_ws) StdoutLine: {'line': b'Installing keypressed_calculator script to /home/dongxu/ros2_ws/src/install/sutd_ws/lib/sutd_ws\n'}
+[1.940483] (sutd_ws) StdoutLine: {'line': b'Installing keypressed_listener script to /home/dongxu/ros2_ws/src/install/sutd_ws/lib/sutd_ws\n'}
+[1.940772] (sutd_ws) StdoutLine: {'line': b'Installing keypressed_talker script to /home/dongxu/ros2_ws/src/install/sutd_ws/lib/sutd_ws\n'}
+[1.940871] (sutd_ws) StdoutLine: {'line': b'Installing wall_follower script to /home/dongxu/ros2_ws/src/install/sutd_ws/lib/sutd_ws\n'}
+[1.940943] (sutd_ws) StdoutLine: {'line': b'Installing wall_follower2 script to /home/dongxu/ros2_ws/src/install/sutd_ws/lib/sutd_ws\n'}
+[1.941112] (sutd_ws) StdoutLine: {'line': b'\n'}
+[1.941227] (sutd_ws) StdoutLine: {'line': b'Installed /home/dongxu/ros2_ws/src/build/sutd_ws\n'}
+[1.941441] (sutd_ws) StdoutLine: {'line': b'running symlink_data\n'}
+[1.989712] (sutd_ws) CommandEnded: {'returncode': 0}
+[2.002261] (sutd_ws) JobEnded: {'identifier': 'sutd_ws', 'rc': 0}
+[2.003385] (-) EventReactorShutdown: {}

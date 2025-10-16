@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: examples-rclpy-guard-conditions
+Version: 0.15.4
+Summary: Examples of using guard conditions.
+Maintainer: Aditya Pande, Shane Loretz
+Maintainer-email: aditya.pande@openrobotics.org, shane@openrobotics.org
+License: Apache License, Version 2.0
+Keywords: ROS
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Provides-Extra: test

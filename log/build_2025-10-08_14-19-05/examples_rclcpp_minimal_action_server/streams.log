@@ -1,0 +1,56 @@
+[0.059s] Invoking command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dongxu/ros2_ws/src/examples/rclcpp/actions/minimal_action_server -DCMAKE_INSTALL_PREFIX=/home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_action_server
+[0.955s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.955s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.955s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.955s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.955s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.956s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.956s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.956s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.956s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.956s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.957s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.780s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.843s] -- Found rclcpp_action: 16.0.15 (/opt/ros/humble/share/rclcpp_action/cmake)
+[6.853s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.923s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.924s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.924s] -- Configured cppcheck include dirs: 
+[6.924s] -- Configured cppcheck exclude dirs and/or files: 
+[6.926s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.926s] -- Configured cpplint exclude dirs and/or files: 
+[6.928s] -- Added test 'lint_cmake' to check CMake code style
+[6.928s] -- Added test 'uncrustify' to check C / C++ code style
+[6.929s] -- Configured uncrustify additional arguments: 
+[6.929s] -- Added test 'xmllint' to check XML markup files
+[6.931s] -- Configuring done
+[6.952s] -- Generating done
+[6.957s] -- Build files have been written to: /home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_action_server
+[6.981s] Invoked command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dongxu/ros2_ws/src/examples/rclcpp/actions/minimal_action_server -DCMAKE_INSTALL_PREFIX=/home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_action_server
+[6.982s] Invoking command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_action_server -- -j16 -l16
+[7.085s] [35m[1mConsolidate compiler generated dependencies of target action_server_not_composable[0m
+[7.086s] [35m[1mConsolidate compiler generated dependencies of target action_server_member_functions[0m
+[7.086s] [ 50%] Built target action_server_not_composable
+[7.086s] [100%] Built target action_server_member_functions
+[7.108s] Invoked command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_action_server -- -j16 -l16
+[7.112s] Invoking command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_action_server
+[7.358s] -- Install configuration: ""
+[7.358s] -- Execute custom install script
+[7.358s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_not_composable
+[7.358s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_member_functions
+[7.358s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_server
+[7.359s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_server
+[7.359s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.sh
+[7.359s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.dsv
+[7.359s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.sh
+[7.359s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.dsv
+[7.359s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.bash
+[7.359s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.sh
+[7.359s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.zsh
+[7.359s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.dsv
+[7.359s] -- Symlinking: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.dsv
+[7.360s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_server
+[7.360s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig.cmake
+[7.360s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig-version.cmake
+[7.360s] -- Up-to-date symlink: /home/dongxu/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.xml
+[7.431s] Invoked command in '/home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dongxu/ros2_ws/src/build/examples_rclcpp_minimal_action_server
