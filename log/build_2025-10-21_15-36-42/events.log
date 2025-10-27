@@ -1,0 +1,39 @@
+[0.000000] (-) TimerEvent: {}
+[0.000705] (sutd_ws) JobQueued: {'identifier': 'sutd_ws', 'dependencies': OrderedDict()}
+[0.004867] (sutd_ws) JobStarted: {'identifier': 'sutd_ws'}
+[0.099393] (-) TimerEvent: {}
+[0.203722] (-) TimerEvent: {}
+[0.304211] (-) TimerEvent: {}
+[0.406490] (-) TimerEvent: {}
+[0.506996] (-) TimerEvent: {}
+[0.610483] (-) TimerEvent: {}
+[0.647741] (sutd_ws) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/sutd_ws', 'build', '--build-base', '/home/tan/ros2_ws/src/sutd_ws/build/sutd_ws/build', 'install', '--record', '/home/tan/ros2_ws/src/sutd_ws/build/sutd_ws/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/tan/ros2_ws/src/sutd_ws', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_SG:en', 'USER': 'tan', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/tan', 'OLDPWD': '/home/tan/ros2_ws/src/sutd_ws/sutd_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2337', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tan/ros2_ws/src/sutd_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/DX-VirtualBox:@/tmp/.ICE-unix/1031,unix/DX-VirtualBox:/tmp/.ICE-unix/1031', 'ROS_DOMAND_ID': '0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/79079698_504f_43e7_b948_22e7742f83cc', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_SG.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.3XXZE3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tan/ros2_ws/src/sutd_ws/install/sutd_ws:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tan/ros2_ws/src/sutd_ws/build/sutd_ws', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tan/ros2_ws/src/sutd_ws/build/sutd_ws/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/python3.10/site-packages:/home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.711239] (-) TimerEvent: {}
+[0.812471] (-) TimerEvent: {}
+[0.897686] (sutd_ws) StdoutLine: {'line': b'running egg_info\n'}
+[0.897989] (sutd_ws) StdoutLine: {'line': b'writing build/sutd_ws/sutd_ws.egg-info/PKG-INFO\n'}
+[0.898182] (sutd_ws) StdoutLine: {'line': b'writing dependency_links to build/sutd_ws/sutd_ws.egg-info/dependency_links.txt\n'}
+[0.898323] (sutd_ws) StdoutLine: {'line': b'writing entry points to build/sutd_ws/sutd_ws.egg-info/entry_points.txt\n'}
+[0.898433] (sutd_ws) StdoutLine: {'line': b'writing requirements to build/sutd_ws/sutd_ws.egg-info/requires.txt\n'}
+[0.898570] (sutd_ws) StdoutLine: {'line': b'writing top-level names to build/sutd_ws/sutd_ws.egg-info/top_level.txt\n'}
+[0.898948] (sutd_ws) StdoutLine: {'line': b"reading manifest file 'build/sutd_ws/sutd_ws.egg-info/SOURCES.txt'\n"}
+[0.899017] (sutd_ws) StdoutLine: {'line': b"writing manifest file 'build/sutd_ws/sutd_ws.egg-info/SOURCES.txt'\n"}
+[0.899057] (sutd_ws) StdoutLine: {'line': b'running build\n'}
+[0.899092] (sutd_ws) StdoutLine: {'line': b'running build_py\n'}
+[0.899126] (sutd_ws) StdoutLine: {'line': b'running install\n'}
+[0.899161] (sutd_ws) StdoutLine: {'line': b'running install_lib\n'}
+[0.900291] (sutd_ws) StdoutLine: {'line': b'running install_data\n'}
+[0.900401] (sutd_ws) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.902736] (sutd_ws) StdoutLine: {'line': b"removing '/home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/python3.10/site-packages/sutd_ws-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.903960] (sutd_ws) StdoutLine: {'line': b'Copying build/sutd_ws/sutd_ws.egg-info to /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/python3.10/site-packages/sutd_ws-0.0.0-py3.10.egg-info\n'}
+[0.904336] (sutd_ws) StdoutLine: {'line': b'running install_scripts\n'}
+[0.912738] (-) TimerEvent: {}
+[0.931784] (sutd_ws) StdoutLine: {'line': b'Installing autonomous_driving script to /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/sutd_ws\n'}
+[0.931966] (sutd_ws) StdoutLine: {'line': b'Installing keypressed_calculator script to /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/sutd_ws\n'}
+[0.932024] (sutd_ws) StdoutLine: {'line': b'Installing keypressed_talker script to /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/sutd_ws\n'}
+[0.932064] (sutd_ws) StdoutLine: {'line': b'Installing remote_control script to /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/sutd_ws\n'}
+[0.932103] (sutd_ws) StdoutLine: {'line': b'Installing wall_follower script to /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/sutd_ws\n'}
+[0.932138] (sutd_ws) StdoutLine: {'line': b"writing list of installed files to '/home/tan/ros2_ws/src/sutd_ws/build/sutd_ws/install.log'\n"}
+[0.957930] (sutd_ws) CommandEnded: {'returncode': 0}
+[0.973928] (sutd_ws) JobEnded: {'identifier': 'sutd_ws', 'rc': 0}
+[0.974862] (-) EventReactorShutdown: {}

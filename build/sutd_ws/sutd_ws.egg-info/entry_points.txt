@@ -1,0 +1,9 @@
+[console_scripts]
+autonomous_driving = sutd_ws.autonomous_driving:main
+gap_follower = sutd_ws.gap_follower:main
+keypressed_calculator = sutd_ws.keypressed_calculator:main
+keypressed_talker = sutd_ws.keypressed_talker:main
+remote_control = sutd_ws.remote_control:main
+safety_driving = sutd_ws.safety_driving:main
+wall_follower = sutd_ws.wall_follower:main
+
