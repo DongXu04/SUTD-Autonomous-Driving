@@ -31,6 +31,7 @@ setup(
             'autonomous_driving = sutd_ws.autonomous_driving:main',
             'safety_driving = sutd_ws.safety_driving:main',
             'gap_follower = sutd_ws.gap_follower:main',
+            'gap_follower2 = sutd_ws.gap_follower2:main',
         ],
     },
 )

@@ -17,8 +17,8 @@ class DisparityBiggestGapFollower(Node):
             AckermannDriveStamped, '/drive', 10)
         
         # --- Tunable parameters ---
-        self.max_speed = 1.0        
-        self.min_speed = 0.25
+        self.max_speed = 5.0        
+        self.min_speed = 0.5
         self.max_steering = 0.5
 
         self.car_width = 0.5            #safety buffer for the car's width
@@ -30,7 +30,7 @@ class DisparityBiggestGapFollower(Node):
 
         # --- Boost parameters ---
         self.boost_steer_threshold = 0.25      # Steering below this triggers boost
-        self.max_boost_speed = 1.5            # Maximum extra speed
+        self.max_boost_speed = 2.5            # Maximum extra speed
         self.boost_decay = 0.25               # How fast boost decays per cycle
         self.boost_increment = 0.25            # How fast boost increases when active
         self.current_boost = 0.0              # Internal boost state

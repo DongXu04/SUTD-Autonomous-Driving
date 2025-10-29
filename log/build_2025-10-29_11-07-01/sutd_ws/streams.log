@@ -1,0 +1,31 @@
+[0.377s] Invoking command in '/home/tan/ros2_ws/src/sutd_ws': PYTHONPATH=/home/tan/ros2_ws/src/sutd_ws/build/sutd_ws/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/sutd_ws build --build-base /home/tan/ros2_ws/src/sutd_ws/build/sutd_ws/build install --record /home/tan/ros2_ws/src/sutd_ws/build/sutd_ws/install.log --single-version-externally-managed install_data
+[0.728s] running egg_info
+[0.728s] writing build/sutd_ws/sutd_ws.egg-info/PKG-INFO
+[0.728s] writing dependency_links to build/sutd_ws/sutd_ws.egg-info/dependency_links.txt
+[0.728s] writing entry points to build/sutd_ws/sutd_ws.egg-info/entry_points.txt
+[0.728s] writing requirements to build/sutd_ws/sutd_ws.egg-info/requires.txt
+[0.728s] writing top-level names to build/sutd_ws/sutd_ws.egg-info/top_level.txt
+[0.730s] reading manifest file 'build/sutd_ws/sutd_ws.egg-info/SOURCES.txt'
+[0.732s] writing manifest file 'build/sutd_ws/sutd_ws.egg-info/SOURCES.txt'
+[0.732s] running build
+[0.732s] running build_py
+[0.732s] copying sutd_ws/gap_follower.py -> /home/tan/ros2_ws/src/sutd_ws/build/sutd_ws/build/lib/sutd_ws
+[0.733s] running install
+[0.733s] running install_lib
+[0.735s] copying /home/tan/ros2_ws/src/sutd_ws/build/sutd_ws/build/lib/sutd_ws/gap_follower.py -> /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/python3.10/site-packages/sutd_ws
+[0.735s] byte-compiling /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/python3.10/site-packages/sutd_ws/gap_follower.py to gap_follower.cpython-310.pyc
+[0.738s] running install_data
+[0.738s] running install_egg_info
+[0.740s] removing '/home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/python3.10/site-packages/sutd_ws-0.0.0-py3.10.egg-info' (and everything under it)
+[0.740s] Copying build/sutd_ws/sutd_ws.egg-info to /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/python3.10/site-packages/sutd_ws-0.0.0-py3.10.egg-info
+[0.742s] running install_scripts
+[0.767s] Installing autonomous_driving script to /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/sutd_ws
+[0.767s] Installing gap_follower script to /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/sutd_ws
+[0.767s] Installing gap_follower2 script to /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/sutd_ws
+[0.768s] Installing keypressed_calculator script to /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/sutd_ws
+[0.768s] Installing keypressed_talker script to /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/sutd_ws
+[0.768s] Installing remote_control script to /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/sutd_ws
+[0.768s] Installing safety_driving script to /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/sutd_ws
+[0.768s] Installing wall_follower script to /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/sutd_ws
+[0.772s] writing list of installed files to '/home/tan/ros2_ws/src/sutd_ws/build/sutd_ws/install.log'
+[0.811s] Invoked command in '/home/tan/ros2_ws/src/sutd_ws' returned '0': PYTHONPATH=/home/tan/ros2_ws/src/sutd_ws/build/sutd_ws/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/sutd_ws build --build-base /home/tan/ros2_ws/src/sutd_ws/build/sutd_ws/build install --record /home/tan/ros2_ws/src/sutd_ws/build/sutd_ws/install.log --single-version-externally-managed install_data

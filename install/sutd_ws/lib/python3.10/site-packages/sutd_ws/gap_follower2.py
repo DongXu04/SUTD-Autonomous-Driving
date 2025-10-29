@@ -19,31 +19,35 @@ class DisparityBiggestGapFollower(Node):
         # --- Tunable parameters ---
         self.max_speed = 5.0        
         self.min_speed = 0.5
-        self.max_steering = 0.5
+        self.max_steering = 0.45
 
-        self.car_width = 0.5            #safety buffer for the car's width
-        self.safety_buffer = 0.2        #add custom safety buffer away from obs
+        self.car_width = 0.5
+        self.safety_buffer = 0.2
         self.gap_min_width = self.car_width + self.safety_buffer
         
-        self.obstacle_thresh = 1.5      #front detection for obstacles
+        self.obstacle_thresh = 1.5
         self.lookahead_angle = np.deg2rad(210)
 
         # --- Boost parameters ---
-        self.boost_steer_threshold = 0.25      # Steering below this triggers boost
-        self.max_boost_speed = 2.5            # Maximum extra speed
-        self.boost_decay = 0.25               # How fast boost decays per cycle
-        self.boost_increment = 0.25            # How fast boost increases when active
-        self.current_boost = 0.0              # Internal boost state
+        self.boost_steer_threshold = 0.25
+        self.max_boost_speed = 1.5
+        self.boost_decay = 0.25
+        self.boost_increment = 0.25
+        self.current_boost = 0.0
 
         # --- Keyboard state ---
         self.stop_car = False
         self.shutdown_flag = False
 
+        # --- New smoothing / filtering parameters ---
+        self.steering_alpha = 0.2      # for EMA filter (0–1, lower = smoother)
+        self.steering_deadband = 0.05  # ignore tiny steering corrections
+        self.filtered_steering = 0.0   # keep last filtered steering
+
         # Start keyboard thread
         self.kb_thread = threading.Thread(target=self.keyboard_listener, daemon=True)
         self.kb_thread.start()
 
-    #detects when user presses key. X to stop, Q to quit
     def keyboard_listener(self):          
         old_settings = termios.tcgetattr(sys.stdin)
         tty.setcbreak(sys.stdin.fileno())
@@ -63,7 +67,6 @@ class DisparityBiggestGapFollower(Node):
         finally:
             termios.tcsetattr(sys.stdin, termios.TCSADRAIN, old_settings)
 
-    #filters and scores gaps around car
     def scan_callback(self, scan: LaserScan):
         if self.shutdown_flag:
             return
@@ -131,8 +134,23 @@ class DisparityBiggestGapFollower(Node):
         target_idx = (s + e) // 2
         target_angle = angles[target_idx]
 
-        steering = np.clip(target_angle, -self.max_steering, self.max_steering)
-        base_speed = self.max_speed - (abs(steering) / self.max_steering) * (self.max_speed - self.min_speed)
+        # --- Steering with low-pass filter (EMA) + deadband ---
+        raw_steering = np.clip(target_angle, -self.max_steering, self.max_steering)
+
+        if abs(raw_steering) < self.steering_deadband:
+            raw_steering = 0.0
+
+        self.filtered_steering = (
+            self.steering_alpha * raw_steering +
+            (1 - self.steering_alpha) * self.filtered_steering
+        )
+
+        steering = self.filtered_steering
+
+        # --- More conservative curvature-based speed scaling ---
+        curvature_factor = abs(steering) / self.max_steering
+        base_speed = self.max_speed * (1.0 - 0.7 * curvature_factor)
+        base_speed = np.clip(base_speed, self.min_speed, self.max_speed)
 
         # --- Boost mechanic ---
         if abs(steering) < self.boost_steer_threshold:
