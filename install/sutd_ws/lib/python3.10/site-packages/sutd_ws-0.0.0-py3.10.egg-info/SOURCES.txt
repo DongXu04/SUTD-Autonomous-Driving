@@ -13,6 +13,7 @@ resource/sutd_ws
 sutd_ws/__init__.py
 sutd_ws/autonomous_driving.py
 sutd_ws/autonomous_driving2.py
+sutd_ws/final_code.py
 sutd_ws/gap_follower.py
 sutd_ws/gap_follower2.py
 sutd_ws/gap_follower3.py

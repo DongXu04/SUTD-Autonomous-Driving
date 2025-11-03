@@ -21,7 +21,7 @@ class JoyCarControl(Node):
         self.steering = 0.0
 
         # Config
-        self.max_speed = 7.0
+        self.max_speed = 4.0
         self.max_steering = 0.20
 
         # Logitech F710 mapping (example indices)
