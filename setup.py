@@ -28,10 +28,13 @@ setup(
             'keypressed_talker = sutd_ws.keypressed_talker:main',
             'keypressed_calculator = sutd_ws.keypressed_calculator:main',
             'remote_control = sutd_ws.remote_control:main',
+            'remote_control2 = sutd_ws.remote_control2:main',
             'autonomous_driving = sutd_ws.autonomous_driving:main',
             'safety_driving = sutd_ws.safety_driving:main',
             'gap_follower = sutd_ws.gap_follower:main',
             'gap_follower2 = sutd_ws.gap_follower2:main',
+            'gap_follower3 = sutd_ws.gap_follower3:main',
+            'autonomous_driving2 = sutd_ws.autonomous_driving2:main',
         ],
     },
 )
