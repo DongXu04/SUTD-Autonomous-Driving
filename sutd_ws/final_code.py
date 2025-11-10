@@ -26,7 +26,7 @@ class HybridCarController(Node):
         self.lb_button_index = 4 # LB = manual mode
         self.rb_button_index = 5 # RB = autonomous mode
         self.manual_speed_scale = 4.0
-        self.manual_steering_scale = 0.25
+        self.manual_steering_scale = 0.20
 
         # --- Gap Follower Config ---
         self.car_width = 0.5
@@ -88,7 +88,7 @@ class HybridCarController(Node):
         drive_msg.drive.steering_angle = float(steering_angle)
         self.drive_pub.publish(drive_msg)
 
-        self.get_logger().info(f"[MANUAL] Speed: {speed:.2f}, Steering: {steering_angle:.2f}")
+        self.get_logger().info(f"[MANUAL] Speed: {speed:.2f}, Steering: {steering_angle:.3f}")
 
     # =========================================================
     # AUTONOMOUS GAP FOLLOWER
