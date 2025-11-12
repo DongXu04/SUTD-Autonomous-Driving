@@ -19,6 +19,7 @@ sutd_ws/gap_follower2.py
 sutd_ws/gap_follower3.py
 sutd_ws/keypressed_calculator.py
 sutd_ws/keypressed_talker.py
+sutd_ws/oldcode.py
 sutd_ws/remote_control.py
 sutd_ws/remote_control2.py
 sutd_ws/safety_driving.py

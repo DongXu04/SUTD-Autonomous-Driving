@@ -36,6 +36,7 @@ setup(
             'gap_follower3 = sutd_ws.gap_follower3:main',
             'autonomous_driving2 = sutd_ws.autonomous_driving2:main',
             'final_code = sutd_ws.final_code:main',
+            'oldcode = sutd_ws.oldcode:main',
         ],
     },
 )
