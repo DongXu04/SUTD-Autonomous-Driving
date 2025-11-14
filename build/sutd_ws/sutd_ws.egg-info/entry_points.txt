@@ -1,6 +1,7 @@
 [console_scripts]
 autonomous_driving = sutd_ws.autonomous_driving:main
 autonomous_driving2 = sutd_ws.autonomous_driving2:main
+depth = sutd_ws.depth:main
 final_code = sutd_ws.final_code:main
 gap_follower = sutd_ws.gap_follower:main
 gap_follower2 = sutd_ws.gap_follower2:main

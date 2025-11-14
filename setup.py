@@ -37,6 +37,7 @@ setup(
             'autonomous_driving2 = sutd_ws.autonomous_driving2:main',
             'final_code = sutd_ws.final_code:main',
             'oldcode = sutd_ws.oldcode:main',
+            'depth = sutd_ws.depth:main',
         ],
     },
 )

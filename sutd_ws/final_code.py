@@ -16,8 +16,8 @@ class HybridCarController(Node):
         self.drive_pub = self.create_publisher(AckermannDriveStamped, '/drive', 20)
 
         # --- Shared Parameters ---
-        self.max_speed = 2.0
-        self.min_speed = 0.5
+        self.max_speed = 2.5
+        self.min_speed = 0.75
         self.max_steering = 0.6
 
         # --- Manual Control Config ---
@@ -25,12 +25,12 @@ class HybridCarController(Node):
         self.axis_steering = 3   # Right stick horizontal
         self.lb_button_index = 4 # LB = manual mode
         self.rb_button_index = 5 # RB = autonomous mode
-        self.manual_speed_scale = 1.5
+        self.manual_speed_scale = 1.0
         self.manual_steering_scale = 0.20
 
         # --- Gap Follower Config ---
         self.car_width = 0.5
-        self.safety_buffer = 0.25
+        self.safety_buffer = 0.20
         self.gap_min_width = self.car_width + self.safety_buffer
         self.obstacle_thresh = 1.2
         self.lookahead_angle = np.deg2rad(210)
