@@ -19,11 +19,11 @@ class HybridFollowerSmooth(Node):
         self.kd_wall = 0.125
         self.prev_error = 0.0
         self.prev_time = self.get_clock().now().nanoseconds / 1e9
-        self.wall_speed = 4.5
+        self.wall_speed = 2.0
 
         # ----- Gap follower params -----
-        self.max_speed = 2.5
-        self.min_speed = 1.5
+        self.max_speed = 1.5
+        self.min_speed = 0.5
         self.max_steering = 0.42
         self.car_width = 0.5
         self.safety_buffer = 0.2
@@ -33,8 +33,8 @@ class HybridFollowerSmooth(Node):
         self.forward_emergency_dist = 0.7
 
         # ----- Switching / transition params -----
-        self.enter_gap_thresh = 1.75
-        self.exit_gap_thresh = 2.25
+        self.enter_gap_thresh = 1.0
+        self.exit_gap_thresh = 1.5
         self.wall_confidence_threshold = 0.5
         self.transition_steps = 12
         self.transition_counter = 0
@@ -50,7 +50,7 @@ class HybridFollowerSmooth(Node):
         # ----- Racing boost system -----
         self.current_boost = 0.0
         self.boost_rate = 0.1
-        self.max_boost = 1.8
+        self.max_boost = 1.5
         self.decay_rate = 0.5
 
         # ----- Emergency stop / shutdown -----

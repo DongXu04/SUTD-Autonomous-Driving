@@ -1,0 +1,36 @@
+[0.467s] Invoking command in '/home/tan/ros2_ws/src/sutd_ws': PYTHONPATH=/home/tan/ros2_ws/src/sutd_ws/build/sutd_ws/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/sutd_ws build --build-base /home/tan/ros2_ws/src/sutd_ws/build/sutd_ws/build install --record /home/tan/ros2_ws/src/sutd_ws/build/sutd_ws/install.log --single-version-externally-managed install_data
+[0.661s] running egg_info
+[0.661s] writing build/sutd_ws/sutd_ws.egg-info/PKG-INFO
+[0.661s] writing dependency_links to build/sutd_ws/sutd_ws.egg-info/dependency_links.txt
+[0.661s] writing entry points to build/sutd_ws/sutd_ws.egg-info/entry_points.txt
+[0.661s] writing requirements to build/sutd_ws/sutd_ws.egg-info/requires.txt
+[0.661s] writing top-level names to build/sutd_ws/sutd_ws.egg-info/top_level.txt
+[0.661s] reading manifest file 'build/sutd_ws/sutd_ws.egg-info/SOURCES.txt'
+[0.662s] writing manifest file 'build/sutd_ws/sutd_ws.egg-info/SOURCES.txt'
+[0.664s] running build
+[0.664s] running build_py
+[0.664s] copying sutd_ws/final_code.py -> /home/tan/ros2_ws/src/sutd_ws/build/sutd_ws/build/lib/sutd_ws
+[0.664s] running install
+[0.664s] running install_lib
+[0.665s] copying /home/tan/ros2_ws/src/sutd_ws/build/sutd_ws/build/lib/sutd_ws/final_code.py -> /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/python3.10/site-packages/sutd_ws
+[0.666s] byte-compiling /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/python3.10/site-packages/sutd_ws/final_code.py to final_code.cpython-310.pyc
+[0.669s] running install_data
+[0.669s] running install_egg_info
+[0.670s] removing '/home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/python3.10/site-packages/sutd_ws-0.0.0-py3.10.egg-info' (and everything under it)
+[0.677s] Copying build/sutd_ws/sutd_ws.egg-info to /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/python3.10/site-packages/sutd_ws-0.0.0-py3.10.egg-info
+[0.678s] running install_scripts
+[0.692s] Installing autonomous_driving script to /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/sutd_ws
+[0.695s] Installing autonomous_driving2 script to /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/sutd_ws
+[0.695s] Installing final_code script to /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/sutd_ws
+[0.695s] Installing gap_follower script to /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/sutd_ws
+[0.695s] Installing gap_follower2 script to /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/sutd_ws
+[0.695s] Installing gap_follower3 script to /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/sutd_ws
+[0.695s] Installing keypressed_calculator script to /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/sutd_ws
+[0.696s] Installing keypressed_talker script to /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/sutd_ws
+[0.697s] Installing oldcode script to /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/sutd_ws
+[0.697s] Installing remote_control script to /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/sutd_ws
+[0.697s] Installing remote_control2 script to /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/sutd_ws
+[0.698s] Installing safety_driving script to /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/sutd_ws
+[0.699s] Installing wall_follower script to /home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/sutd_ws
+[0.700s] writing list of installed files to '/home/tan/ros2_ws/src/sutd_ws/build/sutd_ws/install.log'
+[0.720s] Invoked command in '/home/tan/ros2_ws/src/sutd_ws' returned '0': PYTHONPATH=/home/tan/ros2_ws/src/sutd_ws/build/sutd_ws/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tan/ros2_ws/src/sutd_ws/install/sutd_ws/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/sutd_ws build --build-base /home/tan/ros2_ws/src/sutd_ws/build/sutd_ws/build install --record /home/tan/ros2_ws/src/sutd_ws/build/sutd_ws/install.log --single-version-externally-managed install_data

@@ -11,14 +11,14 @@ class HybridCarController(Node):
         super().__init__('hybrid_car_controller')
 
         # --- ROS2 Interfaces ---
-        self.scan_sub = self.create_subscription(LaserScan, '/scan', self.scan_callback, 10)
-        self.joy_sub = self.create_subscription(Joy, '/joy', self.joy_callback, 10)
-        self.drive_pub = self.create_publisher(AckermannDriveStamped, '/drive', 10)
+        self.scan_sub = self.create_subscription(LaserScan, '/scan', self.scan_callback, 20)
+        self.joy_sub = self.create_subscription(Joy, '/joy', self.joy_callback, 20)
+        self.drive_pub = self.create_publisher(AckermannDriveStamped, '/drive', 20)
 
         # --- Shared Parameters ---
-        self.max_speed = 1.5
+        self.max_speed = 2.0
         self.min_speed = 0.5
-        self.max_steering = 0.55
+        self.max_steering = 0.6
 
         # --- Manual Control Config ---
         self.axis_throttle = 1   # Left stick vertical
@@ -30,13 +30,13 @@ class HybridCarController(Node):
 
         # --- Gap Follower Config ---
         self.car_width = 0.5
-        self.safety_buffer = 0.2
+        self.safety_buffer = 0.25
         self.gap_min_width = self.car_width + self.safety_buffer
         self.obstacle_thresh = 1.2
         self.lookahead_angle = np.deg2rad(210)
 
         self.boost_steer_threshold = 0.1
-        self.max_boost_speed = 0
+        self.max_boost_speed = 0.2
         self.boost_decay = 0.25
         self.boost_increment = 0.1
         self.current_boost = 0.0
@@ -137,7 +137,7 @@ class HybridCarController(Node):
             if gap_width_est < self.gap_min_width:
                 continue
 
-            score = width_angle * bottleneck
+            score = (width_angle * bottleneck) 
             if score > best_score:
                 best_score = score
                 best_segment = (s, e, bottleneck, width_angle)
