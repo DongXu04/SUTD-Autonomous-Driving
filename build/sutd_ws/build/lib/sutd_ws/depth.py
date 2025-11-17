@@ -16,7 +16,7 @@ class HybridCarController(Node):
         self.drive_pub = self.create_publisher(AckermannDriveStamped, '/drive', 20)
 
         # --- Shared Parameters ---
-        self.max_speed = 3.0
+        self.max_speed = 3.5
         self.min_speed = 0.75
         self.max_steering = 0.6
 
@@ -30,7 +30,7 @@ class HybridCarController(Node):
 
         # --- Gap Follower Config ---
         self.car_width = 0.6
-        self.safety_buffer = 0.25
+        self.safety_buffer = 0.15
         self.gap_min_width = self.car_width + self.safety_buffer
         self.obstacle_thresh = 1.25
         self.lookahead_angle = np.deg2rad(210)
