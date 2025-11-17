@@ -12,39 +12,58 @@ class MidpointFollower(Node):
         self.drive_pub = self.create_publisher(AckermannDriveStamped, '/drive', 10)
         self.create_subscription(LaserScan, '/scan', self.scan_callback, 10)
 
-        self.desired_distance = 0.8   # target distance to both walls (so midpoint target)
-        self.kp = 1.2                 # proportional gain
-        self.speed = 2.5              # forward speed
+        # PID parameters (well… PD, because someone didn’t ask for I)
+        self.desired_distance = 0
+        self.kp = 0.8
+        self.kd = 0.3       # derivative gain, adjust before blaming me when it oscillates
+
+        self.speed = 2.5
+
+        # keep track of previous error for derivative term
+        self.prev_error = 0.0
+        self.prev_time = None
 
     def scan_callback(self, scan):
-        # Angles for left and right walls (~90 deg left/right)
         right_angle = -90 * np.pi / 180
         left_angle = 90 * np.pi / 180
 
-        # Convert angles to indices
         right_index = int((right_angle - scan.angle_min) / scan.angle_increment)
         left_index = int((left_angle - scan.angle_min) / scan.angle_increment)
 
-        # Clamp indices within scan range
         right_index = max(0, min(right_index, len(scan.ranges) - 1))
         left_index = max(0, min(left_index, len(scan.ranges) - 1))
 
-        # Get distances
         right_dist = scan.ranges[right_index]
         left_dist = scan.ranges[left_index]
 
-        # Ignore inf/nan readings
-        if np.isinf(right_dist) or np.isnan(right_dist) or np.isinf(left_dist) or np.isnan(left_dist):
+        if (np.isinf(right_dist) or np.isnan(right_dist) or
+            np.isinf(left_dist) or np.isnan(left_dist)):
             self.get_logger().warn("Invalid scan data, skipping frame.")
             return
 
-        # Compute midpoint error (difference between left and right)
+        # error: left minus right
         midpoint_error = left_dist - right_dist
 
-        # Proportional control to center between walls
-        steering_angle = self.kp * midpoint_error
+        # time for derivative calc
+        current_time = self.get_clock().now().nanoseconds * 1e-9
 
-        # Publish drive command
+        if self.prev_time is None:
+            # first frame, no derivative possible
+            derivative = 0.0
+        else:
+            dt = current_time - self.prev_time
+            if dt <= 0:
+                derivative = 0.0
+            else:
+                derivative = (midpoint_error - self.prev_error) / dt
+
+        # PD controller output
+        steering_angle = self.kp * midpoint_error + self.kd * derivative
+
+        # save for next iteration
+        self.prev_error = midpoint_error
+        self.prev_time = current_time
+
         drive_msg = AckermannDriveStamped()
         drive_msg.drive.speed = self.speed
         drive_msg.drive.steering_angle = steering_angle

@@ -29,8 +29,8 @@ class HybridCarController(Node):
         self.manual_steering_scale = 0.45
 
         # --- Gap Follower Config ---
-        self.car_width = 0.5
-        self.safety_buffer = 0.25
+        self.car_width = 0.6
+        self.safety_buffer = 0.15
         self.gap_min_width = self.car_width + self.safety_buffer
         self.obstacle_thresh = 1.25
         self.lookahead_angle = np.deg2rad(210)
@@ -46,6 +46,11 @@ class HybridCarController(Node):
         self.latest_joy = None
         self.latest_scan = None
 
+        # --- Debounce ---
+        self.lb_stable_count = 0
+        self.rb_stable_count = 0
+        self.stable_required = 5
+
         self.get_logger().info("HybridCarController ready. Hold LB for manual, RB for autonomous mode.")
 
     # =========================================================
@@ -57,9 +62,22 @@ class HybridCarController(Node):
         lb_pressed = msg.buttons[self.lb_button_index] if len(msg.buttons) > self.lb_button_index else 0
         rb_pressed = msg.buttons[self.rb_button_index] if len(msg.buttons) > self.rb_button_index else 0
 
+        # --- Debounce LB ---
         if lb_pressed:
+            self.lb_stable_count += 1
+        else:
+            self.lb_stable_count = 0
+
+        # --- Debounce RB ---
+        if rb_pressed:
+            self.rb_stable_count += 1
+        else:
+            self.rb_stable_count = 0
+
+        # --- Debounced mode selection ---
+        if self.lb_stable_count >= self.stable_required:
             self.mode = "manual"
-        elif rb_pressed:
+        elif self.rb_stable_count >= self.stable_required:
             self.mode = "auto"
         else:
             self.mode = "idle"
