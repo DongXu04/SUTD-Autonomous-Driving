@@ -12,10 +12,10 @@ class MidpointFollower(Node):
         self.drive_pub = self.create_publisher(AckermannDriveStamped, '/drive', 10)
         self.create_subscription(LaserScan, '/scan', self.scan_callback, 10)
 
-        # PID parameters (well… PD, because someone didn’t ask for I)
+        # PID parameters 
         self.desired_distance = 0
-        self.kp = 0.8
-        self.kd = 0.3       # derivative gain, adjust before blaming me when it oscillates
+        self.kp = 0.8       # proportional gain
+        self.kd = 0.3       # derivative gain
 
         self.speed = 2.5
 

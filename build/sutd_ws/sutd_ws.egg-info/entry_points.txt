@@ -13,4 +13,3 @@ remote_control = sutd_ws.remote_control:main
 remote_control2 = sutd_ws.remote_control2:main
 safety_driving = sutd_ws.safety_driving:main
 wall_follower = sutd_ws.wall_follower:main
-

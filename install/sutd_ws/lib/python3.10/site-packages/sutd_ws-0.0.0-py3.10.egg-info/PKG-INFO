@@ -2,12 +2,7 @@ Metadata-Version: 2.1
 Name: sutd-ws
 Version: 0.0.0
 Summary: sutd workspace
-Home-page: UNKNOWN
 Maintainer: tan
 Maintainer-email: dongxu1104@gmail.com
 License: Apache License 2.0
-Platform: UNKNOWN
 Provides-Extra: test
-
-UNKNOWN
-
